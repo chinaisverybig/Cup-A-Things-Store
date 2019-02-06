@@ -1,0 +1,1569 @@
+.row {
+  /*Setting a 1rem margin between each container*/
+  margin-top: 1rem;
+}
+
+.block1 {
+  width: 100%;
+}
+
+.block2 {
+  width: 100%;
+}
+
+.block3 {
+  width: 100%;
+}
+
+.block4 {
+  width: 100%;
+}
+
+.block5 {
+  width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+#phone {
+  display: none;
+}
+
+/*Introduction Section*/
+#cupAThings {
+  max-height: 70vh;
+  margin-bottom: 10vh;
+}
+
+#bestSeller {
+  max-height: 35vh;
+  margin-bottom: 1rem;
+}
+
+#intro .block1 {
+  flex: 1;
+}
+
+#intro .block2 {
+  flex: 2;
+}
+
+#intro .block3 {
+  flex: 1;
+}
+
+/*About Section*/
+#aboutSection .block1 {
+  display: flex;
+  align-items: center;
+  flex: 6;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 5rem;
+  padding-right: 2rem;
+}
+
+#aboutSection .block2 {
+  flex: 1;
+}
+
+#aboutSection .block3 {
+  flex: 5;
+}
+
+/*Persona Section*/
+#personaSection .block1 {
+  flex: 5;
+}
+
+#personaSection .block2 {
+  flex: 1;
+}
+
+#personaSection .block3 {
+  display: flex;
+  align-items: center;
+  flex: 6;
+  padding-left: 2rem;
+  padding-right: 5rem;
+}
+
+/*Color Section*/
+#colorSection .block1 {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  padding-left: 5rem;
+  padding-right: 2rem;
+}
+
+#colorSection .block2 {
+  flex: 1;
+}
+
+#colorSection .block3 {
+  flex: 7;
+}
+
+/*Typography Section*/
+#typographySection .block1 {
+  flex: 5;
+}
+
+#typographySection .block2 {
+  flex: 1;
+}
+
+#typographySection .block3 {
+  flex: 6;
+}
+
+/*Potential Images Section*/
+.imageSection .block1 {
+  flex: 1;
+}
+
+.imageSection .block2 {
+  flex: 5;
+}
+
+.imageSection .block3 {
+  flex: 5;
+}
+
+/*Interactive Elements Section*/
+#interactiveElementsSection .block1 {
+  flex: 1;
+}
+
+#interactiveElementsSection .block2 {
+  flex: 2;
+}
+
+#interactiveElementsSection .block3 {
+  flex: 1;
+}
+
+/*In-text Link Section*/
+#link .block1 {
+  flex: 6;
+}
+
+#link .block2 {
+  flex: 1;
+}
+
+#link .block3 {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 2rem;
+  padding-right: 5rem;
+}
+
+/*Navigation Button Section*/
+#navButton .block1 {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5rem;
+  padding-right: 2rem;
+}
+
+#navButton .block2 {
+  flex: 1;
+}
+
+#navButton .block3 {
+  flex: 6;
+}
+
+/*Submit/Reset Button Section*/
+#submitButton .block1 {
+  flex: 6;
+}
+
+#submitButton .block2 {
+  flex: 1;
+}
+
+#submitButton .block3 {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 2rem;
+  padding-right: 5rem;
+}
+
+/*Text input Section*/
+#textInput .block1 {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5rem;
+  padding-right: 2rem;
+}
+
+#textInput .block2 {
+  flex: 1;
+}
+
+#textInput .block3 {
+  flex: 6;
+}
+
+/*Radio Button Section*/
+#radioButton .block1 {
+  flex: 7;
+}
+
+#radioButton .block2 {
+  flex: 1;
+}
+
+#radioButton .block3 {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2rem;
+  padding-right: 5rem;
+}
+
+/*Image as a Link Section*/
+#imageLink .block1 {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5rem;
+  padding-right: 2rem;
+}
+
+#imageLink .block2 {
+  flex: 1;
+}
+
+#imageLink .block3 {
+  flex: 6;
+}
+
+/*text_elements Section*/
+#textElementsSection .block1 {
+  flex: 2;
+}
+
+#textElementsSection .block2 {
+  flex: 8;
+}
+
+#textElementsSection .block3 {
+  flex: 2;
+}
+
+/*Heading Section*/
+#heading .block1 {
+  flex: 6;
+}
+
+#heading .block2 {
+  flex: 1;
+}
+
+#heading .block3 {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2rem;
+  padding-right: 5rem;
+}
+
+/*Paragraph Section*/
+#para .block1 {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5rem;
+  padding-right: 2rem;
+}
+
+#para .block2 {
+  flex: 1;
+}
+
+#para .block3 {
+  flex: 6;
+}
+
+/*Numbered List Section*/
+#numberedList .block1 {
+  flex: 6;
+}
+
+#numberedList .block2 {
+  flex: 1;
+}
+
+#numberedList .block3 {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2rem;
+  padding-right: 5rem;
+}
+
+/*Menu bar section*/
+#navBar .block1 {
+  flex: 7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5rem;
+  padding-right: 2rem;
+}
+
+#navBar .block2 {
+  flex: 1;
+}
+
+#navBar .block3 {
+  flex: 4;
+}
+
+/*Product Listing Section*/
+#productList .block1 {
+  flex: 4;
+}
+
+#productList .block2 {
+  flex: 1;
+}
+
+#productList .block3 {
+  flex: 7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 2rem;
+  padding-right: 5rem;
+}
+
+/*Payment section*/
+#payment .block1 {
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5rem;
+  padding-right: 2rem;
+}
+
+#payment .block2 {
+  flex: 1;
+}
+
+#payment .block3 {
+  flex: 5;
+}
+
+/*Cart Section*/
+#cart .block1 {
+  flex: 5;
+}
+
+#cart .block2 {
+  flex: 1;
+}
+
+#cart .block3 {
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 2rem;
+  padding-right: 5rem;
+}
+
+/*Product Page*/
+#productIntro .block1 {
+  flex: 2;
+}
+
+#productIntro .block2 {
+  flex: 8;
+}
+
+#productIntro .block3 {
+  flex: 2;
+}
+
+.product_listing .block1 {
+  flex: 1;
+}
+
+.product_listing .block2 {
+  flex: 1;
+}
+
+.product_listing .block3 {
+  flex: 3;
+  margin-left: 1rem;
+}
+
+.product_listing .block4 {
+  flex: 3;
+  margin-left: 1rem;
+}
+
+.product_listing .block5 {
+  flex: 3;
+  margin-left: 1rem;
+  margin-right: 5rem;
+}
+
+.popular_noodles .block1 {
+  flex: 6;
+  padding: 2rem 1rem 0 1rem;
+}
+
+.popular_noodles .block2 {
+  flex: 1;
+}
+
+.popular_noodles .block3 {
+  flex: 4;
+}
+
+.popular_noodles .block4 {
+  padding: 2rem 1rem 0 0;
+  flex: 3;
+}
+
+.popular_noodles .block5 {
+  flex: 3;
+  padding: 2rem 1rem 0 1rem;
+}
+
+/*Checkout Cart Page*/
+#checkoutIntro .block1 {
+  flex: 2;
+}
+
+#checkoutIntro .block2 {
+  flex: 8;
+}
+
+#checkoutIntro .block3 {
+  flex: 2;
+}
+
+.checkoutItem .block1 {
+  flex: 3;
+}
+
+.checkoutItem .block2 {
+  flex: 3;
+}
+
+.checkoutItem .block3 {
+  flex: 3;
+}
+
+.checkoutItem .block4 {
+  flex: 1;
+}
+
+.checkoutItem .block5 {
+  flex: 1;
+}
+
+#checkoutSummary .block1 {
+  flex: 4;
+}
+
+#checkoutSummary .block2 {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#checkoutSummary .block3 {
+  flex: 1;
+}
+
+#checkoutSummary .block4 {
+  flex: 1;
+}
+
+/*Payment Page*/
+#paymentIntro .block1 {
+  flex: 2;
+}
+
+#paymentIntro .block2 {
+  flex: 8;
+}
+
+#paymentIntro .block3 {
+  flex: 2;
+}
+
+#paymentInfo .block1 {
+  flex: 1;
+}
+
+#paymentInfo .block2 {
+  flex: 1;
+}
+
+#paymentInfo .block3 {
+  flex: 10;
+  padding: 2rem 5rem 2rem 2rem;
+}
+
+/*for tablet*/
+@media only screen and (max-width:60rem) {
+  #cupAThings {
+    max-height: 100vh;
+    margin-bottom: 0;
+  }
+
+  #bestSeller {
+    max-height: 100vh;
+    margin-bottom: 0;
+  }
+
+  #laptop {
+    display: none;
+  }
+
+  #menuToggle {
+    display: block;
+    position: relative;
+    top: 0.25rem;
+    left: 1rem;
+    z-index: 1000;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  #menuToggle input {
+    display: block;
+    width: 2rem;
+    height: 1.6rem;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    /* hide this */
+    z-index: 1002;
+    /* and place it over the hamburger */
+    -webkit-touch-callout: none;
+  }
+
+  #menuToggle span {
+    display: block;
+    width: 1.65rem;
+    height: 0.2rem;
+    margin-bottom: 0.25rem;
+    position: relative;
+    background: #333333;
+    border-radius: 0.15rem;
+    z-index: 1001;
+    transform-origin: 0.2rem 0;
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+      opacity 0.55s ease;
+  }
+
+  #menuToggle span:first-child {
+    transform-origin: 0% 0%;
+  }
+
+  #menuToggle span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+  }
+
+  #menuToggle input:checked~span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #FFFFFF;
+  }
+
+  #menuToggle input:checked~span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+
+  #menuToggle input:checked~span:nth-last-child(2) {
+    opacity: 1;
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+
+  #menu {
+    overflow-y: scroll;
+    position: absolute;
+    width: 100%;
+    margin: -3em 0 0 -1em;
+    padding: 3em 0 2em 0;
+    background: #333333;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+  }
+
+  #menu li a {
+    padding: 0.5em 0;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  #menuToggle input:checked~ul {
+    transform: scale(1.0, 1.0);
+    opacity: 1;
+  }
+
+  #phone {
+    width: 100%;
+    position: fixed;
+    display: block;
+    padding: 0.8rem 0;
+    z-index: 100000;
+  }
+
+  #menu li a:hover {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #f16668;
+  }
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  #intro .block1 {
+    flex: 1;
+  }
+
+  #intro .block2 {
+    flex: 2;
+  }
+
+  #intro .block3 {
+    flex: 1;
+  }
+
+  /*About Section*/
+  #aboutSection .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Persona Section*/
+  #personaSection .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Color Section*/
+  #colorSection .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Typography Section*/
+  #typographySection .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Potential Images Section*/
+  .imageSection .block1 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Interactive Elements Section*/
+  #interactiveElementsSection .block1 {
+    flex: 1;
+  }
+
+  #interactiveElementsSection .block2 {
+    flex: 2;
+  }
+
+  #interactiveElementsSection .block3 {
+    flex: 1;
+  }
+
+  /*In-text Link Section*/
+  #link .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Navigation Button Section*/
+  #navButton .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Submit/Reset Button Section*/
+  #submitButton .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Text input Section*/
+  #textInput .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Radio Button Section*/
+  #radioButton .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Image as a Link Section*/
+  #imageLink .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*text_elements Section*/
+  #textElementsSection .block1 {
+    flex: 2;
+  }
+
+  #textElementsSection .block2 {
+    flex: 8;
+  }
+
+  #textElementsSection .block3 {
+    flex: 2;
+  }
+
+  /*Heading Section*/
+  #heading .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Paragraph Section*/
+  #para .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Numbered List Section*/
+  #numberedList .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Menu bar section*/
+  #navBar .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Product Listing Section*/
+  #productList .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Payment section*/
+  #payment .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Cart Section*/
+  #cart .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Product Page*/
+  #productIntro .block1 {
+    flex: 2;
+  }
+
+  #productIntro .block2 {
+    flex: 8;
+  }
+
+  #productIntro .block3 {
+    flex: 2;
+  }
+
+  .product_listing .block1 {
+    flex: 0;
+    display: none;
+  }
+
+  .product_listing .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  .product_listing .block3 {
+    flex: 3;
+  }
+
+  .product_listing .block4 {
+    flex: 3;
+  }
+
+  .product_listing .block5 {
+    flex: 3;
+  }
+
+  /*Checkout Cart Page*/
+  #checkoutIntro .block1 {
+    flex: 2;
+  }
+
+  #checkoutIntro .block2 {
+    flex: 8;
+  }
+
+  #checkoutIntro .block3 {
+    flex: 2;
+  }
+
+  .checkoutItem .block1 {
+    flex: 3;
+  }
+
+  .checkoutItem .block2 {
+    flex: 3;
+  }
+
+  .checkoutItem .block3 {
+    flex: 3;
+  }
+
+  .checkoutItem .block4 {
+    flex: 1;
+  }
+
+  .checkoutItem .block5 {
+    flex: 1;
+  }
+
+  #checkoutSummary .block1 {
+    flex: 4;
+  }
+
+  #checkoutSummary .block2 {
+    flex: 5;
+  }
+
+  #checkoutSummary .block3 {
+    flex: 1;
+  }
+
+  #checkoutSummary .block4 {
+    flex: 1;
+  }
+
+  /*Product Page*/
+  .popular_noodles .block1 {
+    flex: 1;
+  }
+
+  .popular_noodles .block2 {
+    flex: 1;
+  }
+
+  .popular_noodles .block3 {
+    flex: 3;
+    margin-left: 2rem;
+  }
+
+  .popular_noodles .block4 {
+    flex: 3;
+    margin-left: 1rem;
+  }
+
+  .popular_noodles .block5 {
+    flex: 3;
+    margin-left: 1rem;
+    margin-right: 2rem;
+  }
+}
+
+/*for phone*/
+@media only screen and (max-width:45rem) {
+  #cupAThings {
+    max-height: 100vh;
+    margin-bottom: 0;
+  }
+
+  #bestSeller {
+    max-height: 100vh;
+    margin-bottom: 0;
+  }
+
+  /*I referenced the hamburger menu from the internet it is in my citation (NOT MY CODE)*/
+  #laptop {
+    display: none;
+  }
+
+  #menuToggle {
+    display: block;
+    position: relative;
+    top: 0.25rem;
+    left: 1rem;
+    z-index: 1000;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  #menuToggle input {
+    display: block;
+    width: 2rem;
+    height: 1.6rem;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    /* hide this */
+    z-index: 1002;
+    /* and place it over the hamburger */
+    -webkit-touch-callout: none;
+  }
+
+  #menuToggle span {
+    display: block;
+    width: 1.65rem;
+    height: 0.2rem;
+    margin-bottom: 0.25rem;
+    position: relative;
+    background: #333333;
+    border-radius: 0.15rem;
+    z-index: 1001;
+    transform-origin: 0.2rem 0;
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+      opacity 0.55s ease;
+  }
+
+  #menuToggle span:first-child {
+    transform-origin: 0% 0%;
+  }
+
+  #menuToggle span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+  }
+
+  #menuToggle input:checked~span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #FFFFFF;
+  }
+
+  #menuToggle input:checked~span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+
+  #menuToggle input:checked~span:nth-last-child(2) {
+    opacity: 1;
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+
+  #menu {
+    overflow-y: scroll;
+    position: absolute;
+    width: 100%;
+    margin: -3em 0 0 -1em;
+    padding: 3em 0 2em 0;
+    background: #333333;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+  }
+
+  #menu li a {
+    padding: 0.5em 0;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  #menuToggle input:checked~ul {
+    transform: scale(1.0, 1.0);
+    opacity: 1;
+  }
+
+  #phone {
+    width: 100%;
+    position: fixed;
+    display: block;
+    padding: 0.8rem 0;
+    z-index: 100000;
+  }
+
+  label {
+    padding: 0;
+  }
+
+  #menu li a:hover {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #f16668;
+  }
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  body {
+    font-size: 12px;
+  }
+
+  h2 {
+    font-size: 3.5rem;
+  }
+
+  .checkout-img-noodle {
+    margin-left: 0;
+  }
+
+  .item {
+    margin: 0rem 0 1rem 0rem;
+  }
+
+  .right-margin {
+    margin-right: 0;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #intro .block1 {
+    flex: 1;
+  }
+
+  #intro .block2 {
+    flex: 2;
+  }
+
+  #intro .block3 {
+    flex: 1;
+  }
+
+  /*About Section*/
+  #aboutSection .block1 {
+    display: flex;
+    align-items: center;
+    flex: 6;
+    padding: 3rem;
+    order: 2;
+  }
+
+  #aboutSection .block2 {
+    flex: 1;
+    order: 1;
+  }
+
+  #aboutSection .block3 {
+    flex: 5;
+    order: 0;
+  }
+
+  /*Persona Section*/
+  #personaSection .block1 {
+    flex: 5;
+    order: 0;
+  }
+
+  #personaSection .block2 {
+    flex: 1;
+    order: 1;
+  }
+
+  #personaSection .block3 {
+    display: flex;
+    align-items: center;
+    flex: 6;
+    padding: 3rem;
+    order: 2;
+  }
+
+  /*Color Section*/
+  #colorSection .block1 {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+    order: 2;
+  }
+
+  #colorSection .block2 {
+    flex: 1;
+    order: 1;
+  }
+
+  #colorSection .block3 {
+    flex: 7;
+    order: 0;
+  }
+
+  /*Typography Section*/
+  #typographySection .block1 {
+    flex: 5;
+    order: 0;
+  }
+
+  #typographySection .block2 {
+    flex: 1;
+    order: 1;
+  }
+
+  #typographySection .block3 {
+    flex: 6;
+    order: 2;
+  }
+
+  /*Potential Images Section*/
+  .imageSection .block1 {
+    flex: 1;
+    order: 0;
+  }
+
+  .imageSection .block2 {
+    flex: 5;
+    order: 2;
+  }
+
+  .imageSection .block3 {
+    flex: 5;
+    order: 1;
+    margin-bottom: 1rem;
+  }
+
+  /*Interactive Elements Section*/
+  #interactiveElementsSection .block1 {
+    flex: 1;
+  }
+
+  #interactiveElementsSection .block2 {
+    flex: 2;
+  }
+
+  #interactiveElementsSection .block3 {
+    flex: 1;
+  }
+
+  /*In-text Link Section*/
+  #link .block1 {
+    flex: 6;
+    order: 0;
+  }
+
+  #link .block2 {
+    flex: 1;
+    order: 1;
+  }
+
+  #link .block3 {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    order: 2;
+  }
+
+  /*Navigation Button Section*/
+  #navButton .block1 {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    order: 2;
+  }
+
+  #navButton .block2 {
+    flex: 1;
+    order: 1;
+  }
+
+  #navButton .block3 {
+    flex: 6;
+    order: 0;
+  }
+
+  /*Submit/Reset Button Section*/
+  #submitButton .block1 {
+    flex: 6;
+    order: 0;
+  }
+
+  #submitButton .block2 {
+    flex: 1;
+    order: 1;
+  }
+
+  #submitButton .block3 {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    order: 2;
+  }
+
+  /*Text input Section*/
+  #textInput .block1 {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    order: 2;
+  }
+
+  #textInput .block2 {
+    flex: 1;
+    order: 1;
+  }
+
+  #textInput .block3 {
+    flex: 6;
+    order: 0;
+  }
+
+  /*Radio Button Section*/
+  #radioButton .block1 {
+    flex: 7;
+    order: 0;
+  }
+
+  #radioButton .block2 {
+    flex: 1;
+    order: 1;
+  }
+
+  #radioButton .block3 {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    order: 2;
+  }
+
+  /*Image as a Link Section*/
+  #imageLink .block1 {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    order: 2;
+  }
+
+  #imageLink .block2 {
+    flex: 1;
+    order: 1;
+  }
+
+  #imageLink .block3 {
+    flex: 6;
+    order: 0;
+  }
+
+  /*text_elements Section*/
+  #textElementsSection .block1 {
+    flex: 2;
+  }
+
+  #textElementsSection .block2 {
+    flex: 8;
+  }
+
+  #textElementsSection .block3 {
+    flex: 2;
+  }
+
+  /*Heading Section*/
+  #heading .block1 {
+    flex: 6;
+    order: 0;
+  }
+
+  #heading .block2 {
+    flex: 1;
+    order: 1;
+  }
+
+  #heading .block3 {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    order: 2;
+  }
+
+  /*Paragraph Section*/
+  #para .block1 {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    order: 2;
+  }
+
+  #para .block2 {
+    flex: 1;
+    order: 1;
+  }
+
+  #para .block3 {
+    flex: 6;
+    order: 0;
+  }
+
+  /*Numbered List Section*/
+  #numberedList .block1 {
+    flex: 6;
+    order: 0;
+  }
+
+  #numberedList .block2 {
+    flex: 1;
+    order: 1;
+  }
+
+  #numberedList .block3 {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    order: 2;
+  }
+
+  /*Menu bar section*/
+  #navBar .block1 {
+    flex: 7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    order: 2;
+  }
+
+  #navBar .block2 {
+    flex: 1;
+    order: 1;
+  }
+
+  #navBar .block3 {
+    flex: 4;
+    order: 0;
+  }
+
+  /*Product Listing Section*/
+  #productList .block1 {
+    flex: 4;
+    order: 0;
+  }
+
+  #productList .block2 {
+    flex: 1;
+    order: 1;
+  }
+
+  #productList .block3 {
+    flex: 7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    order: 2;
+  }
+
+  /*Payment section*/
+  #payment .block1 {
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    order: 2;
+  }
+
+  #payment .block2 {
+    flex: 1;
+    order: 1;
+  }
+
+  #payment .block3 {
+    flex: 5;
+    order: 0;
+  }
+
+  /*Cart Section*/
+  #cart .block1 {
+    flex: 5;
+    order: 0;
+  }
+
+  #cart .block2 {
+    flex: 1;
+    order: 1;
+  }
+
+  #cart .block3 {
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    order: 2;
+  }
+
+  /*Product Page*/
+  .popular_noodles .block1 {
+    flex: 0;
+    display: none;
+    order: 0;
+    margin: 0;
+  }
+
+  .popular_noodles .block2 {
+    flex: 0;
+    display: none;
+    order: 1;
+    margin: 0;
+  }
+
+  .popular_noodles .block3 {
+    flex: 3;
+    order: 2;
+    margin: 0;
+  }
+
+  .popular_noodles .block4 {
+    flex: 3;
+    order: 3;
+    margin: 0;
+  }
+
+  .popular_noodles .block5 {
+    flex: 3;
+    order: 4;
+    margin: 0;
+  }
+
+  .product_listing .block1 {
+    flex: 0;
+    display: none;
+    order: 0;
+    margin: 0;
+  }
+
+  .product_listing .block2 {
+    flex: 0;
+    display: none;
+    order: 1;
+    margin: 0;
+  }
+
+  .product_listing .block3 {
+    flex: 3;
+    order: 2;
+    margin: 0;
+  }
+
+  .product_listing .block4 {
+    flex: 3;
+    order: 3;
+    margin: 0;
+  }
+
+  .product_listing .block5 {
+    flex: 3;
+    order: 4;
+    margin: 0;
+  }
+
+  #checkoutLeft {
+    width: 100%;
+  }
+
+  #checkoutRight {
+    position: relative;
+    width: 100%;
+    box-shadow: none;
+  }
+}
+}
+}
