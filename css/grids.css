@@ -36,6 +36,16 @@
   flex-direction: column;
 }
 
+.horizontal {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+#line-margin-top {
+  margin-top: 1rem;
+}
+
 #phone {
   display: none;
 }
@@ -446,16 +456,17 @@
 }
 
 .popular_noodles .block1 {
-  flex: 6;
+  flex: 5;
   padding: 2rem 1rem 0 1rem;
 }
 
 .popular_noodles .block2 {
-  flex: 1;
+  flex: 0.6;
+  margin-right: 1rem;
 }
 
 .popular_noodles .block3 {
-  flex: 4;
+  flex: 5;
 }
 
 .popular_noodles .block4 {
@@ -464,6 +475,7 @@
 }
 
 .popular_noodles .block5 {
+  margin-top: 1rem;
   flex: 3;
   padding: 2rem 1rem 0 1rem;
 }
