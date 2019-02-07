@@ -58,7 +58,11 @@
 
 #bestSeller {
   max-height: 35vh;
-  margin-bottom: 1rem;
+}
+
+#products {
+  max-height: 45vh;
+  margin-bottom: 15vh;
 }
 
 #intro .block1 {
