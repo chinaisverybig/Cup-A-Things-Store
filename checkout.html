@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>Cup A'Things</title>
+
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/grids.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+  <div class="active menuBar" id="phone">
+    <div id="menuToggle">
+      <input type="checkbox" />
+      <span></span>
+      <span></span>
+      <span></span>
+      <ul id="menu">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="product_listing.html">Products</a></li>
+        <li><a href="checkout.html">Checkout</a></li>
+        <li><a href="#citations">Citations</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="active menuBar" id="laptop">
+    <a class="button-nav" href="home.html">Home</a>
+    <a class="button-nav" href="events.html">Events</a>
+    <a class="button-nav" href="product_listing.html">Products</a>
+    <a class="button-nav" href="checkout.html">Checkout</a>
+    <a class="button-nav" href="#citations">Citations</a>
+  </div>
+  <div id="checkoutRight">
+    <!-- Payment Header -->
+    <div class="payment-panel">
+      <h2 class="payment-title">Checkout Cart</h2>
+    </div>
+
+    <div class="row white">
+      <div class="flex-container checkoutItem">
+        <div class="block1 middle-text">
+          <a href="#" class="img-link">
+            <img class="checkout-img-noodle img-noodle checkout-img-background" src="img/miGoreng.png" alt="Mi Goreng Instant Noodle Cup">
+          </a>
+        </div>
+        <div class="block2">
+        </div>
+        <div class="block3 middle-text checkout-text">
+          <p>Mi Goreng Instant Noodles</p>
+          <p>$0.99 USD each</p>
+          <a class="remove_button" href="#">Remove</a>
+        </div>
+        <!-- <div class="block4 blue"></div> -->
+        <div class="block5">
+          <!-- <div class="blue-line fat-line left-line"></div>
+          <div class="blue-line heavy-line left-line"></div>
+          <div class="blue-line regular-line left-line"></div>
+          <div class="blue-line thin-line left-line"></div> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="row white">
+      <div class="flex-container checkoutItem">
+        <div class="block1 middle-text">
+          <a href="#" class="img-link">
+            <img class="checkout-img-noodle img-noodle checkout-img-background" src="img/shinRamyun.png" alt="Shin Ramyun Instant Noodle Cup">
+          </a>
+        </div>
+        <div class="block2">
+        </div>
+        <div class="block3 middle-text checkout-text">
+          <p>Shin Ramyun Instant Noodles</p>
+          <p>$2.99 USD each</p>
+          <a class="remove_button" href="#">Remove</a>
+        </div>
+        <!-- <div class="block4 blue"></div> -->
+        <div class="block5">
+          <!-- <div class="blue-line fat-line left-line"></div>
+          <div class="blue-line heavy-line left-line"></div>
+          <div class="blue-line regular-line left-line"></div>
+          <div class="blue-line thin-line left-line"></div> -->
+        </div>
+      </div>
+    </div>
+    <div class="row white">
+      <div class="flex-container" id="checkoutSummary">
+        <div class="block1">
+          <div class="spacer"></div>
+        </div>
+        <div class="block2 order-summary right-side">
+          <h4> order summary</h4>
+          <p>Subtotal Amount: $1,000,000.00</p>
+          <p>Tax:$2,000,000.00</p>
+          <p>Total Amount: $3,000,000.00 </p>
+          <a class="button" href="#">Submit</a>
+        </div>
+        <!-- <div class="block3 blue"></div> -->
+        <div class="block4">
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="checkoutLeft">
+    <div class="dark-blue row">
+      <div class="title-screen">
+        <div class="flex-container" id="paymentIntro">
+          <div class="block1">
+            <div class="spacer"></div>
+          </div>
+          <div class="block2">
+            <img src="img/steakNoodle.png" alt="steak instant noodle" class="checkout-noodle-img">
+          </div>
+          <!-- <h5 class="title-screen subtitle">the best type of men is ramen</h5> -->
+          <div class="block3">
+            <div class="spacer"></div>
+          </div>
+          <h2 class="title-screen title">Payment Info</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row white">
+      <div class="flex-container" id="paymentInfo">
+        <div class="block1">
+          <div class="pink-line fat-line right-line"></div>
+          <div class="pink-line heavy-line right-line"></div>
+          <div class="pink-line regular-line right-line"></div>
+          <div class="pink-line thin-line right-line"></div>
+        </div>
+        <div class="block2 pink"></div>
+        <div class="block3 title-screen">
+          <form action="/action_page.php">
+            <label for="masterCard" class="radio-label">Master Card
+              <input type="radio" name="card-type" id="masterCard" class="button-radio">
+              <span class="checkmark"></span>
+            </label>
+            <label for="visa" class="radio-label">Visa
+              <input type="radio" name="card-type" id="visa" class="button-radio">
+              <span class="checkmark"></span>
+            </label>
+            <label for="americanExpress" class="radio-label">American Express
+              <input type="radio" name="card-type" id="americanExpress" class="button-radio">
+              <span class="checkmark"></span>
+            </label>
+            <label for="form-name-input" class="form-label"> Cardholder's Full Name</label>
+            <input type="text" id="form-name-input" class="text-box" placeholder="1234567891021234">
+            <label for="form-cardnumber-input" class="form-label">Card Number</label>
+            <input type="text" id="form-cardnumber-input" class="text-box" placeholder="John Wicke">
+            <label for="form-cvv-input" class="form-label">CVV Number</label>
+            <input type="text" id="form-cvv-input" class="text-box" placeholder="123">
+            <label for="form-address-input" class="form-label">Billing Address</label>
+            <input type="text" id="form-address-input" class="text-box" placeholder="1234 12th Street">
+            <label for="form-email-input" class="form-label">E-mail</label>
+            <input type="text" id="form-email-input" class="text-box" placeholder="abc@gmail.com">
+            <input type="submit" value="Submit" class="button">
+          </form>
+        </div>
+
+      </div>
+      <!-- I referenced from https://www.w3schools.com/tags/tag_input.asp -->
+    </div>
+  </div>
+  <script src="jquery.js"></script>
+
+</body>
+
+</html>
