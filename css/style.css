@@ -136,7 +136,7 @@ footer {
   margin-bottom: 1rem;
   margin-top: 0.5rem;
   outline-width: 0;
-  width: 100%;
+  width: 80%;
   clear: both;
 }
 
@@ -671,6 +671,12 @@ footer {
   right: 0;
   width: 25%;
   box-shadow: -4px 0px 8px 0px #00000052;
+  overflow-y: scroll;
+  bottom: 0;
+}
+
+#checkoutForm label {
+  display: block;
 }
 
 /*
