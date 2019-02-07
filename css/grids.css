@@ -597,6 +597,22 @@
   flex: 1;
 }
 
+.kidsTrySection .block1 {
+  flex: 6;
+}
+
+.kidsTrySection .block2 {
+  flex: 1;
+}
+
+.kidsTrySection .block3 {
+  flex: 5;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 5rem;
+}
+
 /*for tablet*/
 @media only screen and (max-width:60rem) {
   #cupAThings {
