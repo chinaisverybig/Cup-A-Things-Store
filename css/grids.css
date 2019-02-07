@@ -522,22 +522,25 @@
   flex: 3;
 }
 
-.checkoutItem .block2 {
+/* .checkoutItem .block2 {
   flex: 3;
-}
-
+} */
 .checkoutItem .block3 {
   flex: 3;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
-.checkoutItem .block4 {
+/* .checkoutItem .block4 {
   flex: 1;
 }
 
 .checkoutItem .block5 {
   flex: 1;
-}
-
+} */
 #checkoutSummary .block1 {
   flex: 4;
 }
