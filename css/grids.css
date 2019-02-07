@@ -53,7 +53,7 @@
 /*Introduction Section*/
 #cupAThings {
   max-height: 70vh;
-  margin-bottom: 10vh;
+  margin-bottom: 5rem;
 }
 
 #bestSeller {
@@ -62,7 +62,7 @@
 
 #products {
   max-height: 45vh;
-  margin-bottom: 15vh;
+  margin-bottom: 8rem;
 }
 
 #intro .block1 {
@@ -440,23 +440,26 @@
 }
 
 .product_listing .block2 {
-  flex: 1;
+  flex: 3;
+  padding: 2rem 0;
 }
 
 .product_listing .block3 {
   flex: 3;
   margin-left: 1rem;
+  padding: 2rem 0;
 }
 
 .product_listing .block4 {
   flex: 3;
   margin-left: 1rem;
+  padding: 2rem 0;
 }
 
 .product_listing .block5 {
   flex: 3;
   margin-left: 1rem;
-  margin-right: 5rem;
+  padding: 2rem 0;
 }
 
 .popular_noodles .block1 {
