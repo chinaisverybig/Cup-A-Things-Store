@@ -172,7 +172,7 @@ footer {
   border: 0.05rem solid #333333;
   border-radius: 0.3rem;
   color: #333333;
-  padding: 0.75rem 4rem;
+  padding: 0.5rem 1rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -182,7 +182,7 @@ footer {
 
 .button:hover, .button:focus {
   background-color: #f16668;
-  padding: 0.75rem 4rem;
+  padding: 0.5rem 1rem;
   border: none;
   border-radius: 0.3rem;
   color: white;
@@ -291,8 +291,11 @@ footer {
 
 /*I referenced from w3school to style the radio button https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_radio*/
 /*image margins for title*/
-.product-img-background {
+/* .product-img-background {
   background-color: #f8f7f0;
+} */
+.shadow {
+  box-shadow: 0.02rem 0.02rem #333333;
 }
 
 .checkout-img-background {
@@ -369,6 +372,10 @@ footer {
 
 .black-text {
   color: #333333;
+}
+
+.center {
+  text-align: center;
 }
 
 /*testing to make the paragraphs at the center*/
