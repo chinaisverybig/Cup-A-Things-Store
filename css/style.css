@@ -136,7 +136,7 @@ footer {
   margin-bottom: 1rem;
   margin-top: 0.5rem;
   outline-width: 0;
-  width: 100%;
+  width: 80%;
   clear: both;
 }
 
@@ -298,13 +298,23 @@ footer {
   box-shadow: 0.02rem 0.02rem #333333;
 }
 
+.checkout_cart_noodles {
+  clear: both;
+  margin-bottom: 1rem;
+  color: #333333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+}
+
 .checkout-img-background {
   background-color: #a8cfe5;
 }
 
 .checkout-img-noodle {
   margin-top: 3rem;
-  margin-left: 2.5rem;
+  margin-left: 2rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
 }
@@ -326,7 +336,7 @@ footer {
 }
 
 .payment-panel {
-  padding-top: 4rem;
+  padding-top: 5rem;
   position: relative;
   text-align: center;
 }
@@ -665,6 +675,12 @@ footer {
   right: 0;
   width: 25%;
   box-shadow: -4px 0px 8px 0px #00000052;
+  overflow-y: scroll;
+  bottom: 0;
+}
+
+#checkoutForm label {
+  display: block;
 }
 
 /*
