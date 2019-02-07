@@ -65,6 +65,11 @@
   margin-bottom: 8rem;
 }
 
+#events {
+  max-height: 50vh;
+  margin-bottom: 5rem;
+}
+
 #intro .block1 {
   flex: 1;
 }
@@ -577,6 +582,19 @@
 #paymentInfo .block3 {
   flex: 10;
   padding: 2rem 5rem 2rem 2rem;
+}
+
+/*Events Page*/
+#eventsInfo .block1 {
+  flex: 1;
+}
+
+#eventsInfo .block2 {
+  flex: 5;
+}
+
+#eventsInfo .block3 {
+  flex: 1;
 }
 
 /*for tablet*/
