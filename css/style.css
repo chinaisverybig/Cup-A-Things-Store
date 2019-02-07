@@ -298,13 +298,23 @@ footer {
   box-shadow: 0.02rem 0.02rem #333333;
 }
 
+.checkout_cart_noodles {
+  clear: both;
+  margin-bottom: 1rem;
+  color: #333333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+}
+
 .checkout-img-background {
   background-color: #a8cfe5;
 }
 
 .checkout-img-noodle {
   margin-top: 3rem;
-  margin-left: 2.5rem;
+  margin-left: 2rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
 }
