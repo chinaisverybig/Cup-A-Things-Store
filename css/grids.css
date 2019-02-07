@@ -613,6 +613,38 @@
   padding-right: 5rem;
 }
 
+/*Product Detail Page*/
+#detailSection .block1 {
+  padding-top: 4rem;
+  flex: 5;
+}
+
+#detailSection .block2 {
+  flex: 1;
+}
+
+#detailSection .block3 {
+  margin-top: 4rem;
+  flex: 6;
+  padding-left: 2rem;
+}
+
+#detailSection .block4 h5 {
+  padding-bottom: 1rem;
+}
+
+#detailSection .block4 {
+  flex: 6;
+  clear: both;
+  padding-left: 1rem;
+  padding-right: 5rem;
+}
+
+#detailSection .block5 {
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+}
+
 /*for tablet*/
 @media only screen and (max-width:60rem) {
   #cupAThings {
