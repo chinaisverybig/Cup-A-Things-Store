@@ -563,7 +563,7 @@
 
 /*Payment Page*/
 #paymentIntro .block1 {
-  flex: 2;
+  flex: 0;
 }
 
 #paymentIntro .block2 {
@@ -571,7 +571,7 @@
 }
 
 #paymentIntro .block3 {
-  flex: 2;
+  flex: 0;
 }
 
 #paymentInfo .block1 {
