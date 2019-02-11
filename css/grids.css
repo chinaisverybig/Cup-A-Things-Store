@@ -665,6 +665,11 @@
     margin-bottom: 0;
   }
 
+  #products {
+    max-height: 45vh;
+    margin-bottom: 4rem;
+  }
+
   #laptop {
     display: none;
   }
@@ -781,11 +786,11 @@
   }
 
   body {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   h2 {
-    font-size: 5rem;
+    font-size: 4.5rem;
   }
 
   .intro .block1 {
@@ -948,13 +953,11 @@
   }
 
   .product_listing .block1 {
-    flex: 0;
-    display: none;
+    flex: 1;
   }
 
   .product_listing .block2 {
-    flex: 0;
-    display: none;
+    flex: 3;
   }
 
   .product_listing .block3 {
@@ -1053,6 +1056,10 @@
   #bestSeller {
     max-height: 100vh;
     margin-bottom: 0;
+  }
+
+  #products {
+    margin-bottom: 1rem;
   }
 
   /*I referenced the hamburger menu from the internet it is in my citation (NOT MY CODE)*/
@@ -1636,22 +1643,21 @@
   }
 
   .product_listing .block2 {
-    flex: 0;
-    display: none;
+    flex: 3;
     order: 1;
-    margin: 0;
+    margin: 0 0 1rem 0;
   }
 
   .product_listing .block3 {
     flex: 3;
     order: 2;
-    margin: 0;
+    margin: 0 0 1rem 0;
   }
 
   .product_listing .block4 {
     flex: 3;
     order: 3;
-    margin: 0;
+    margin: 0 0 1rem 0;
   }
 
   .product_listing .block5 {
