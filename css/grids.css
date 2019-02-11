@@ -65,9 +65,8 @@
   margin-bottom: 8rem;
 }
 
-#events {
+#trending {
   max-height: 50vh;
-  margin-bottom: 5rem;
 }
 
 .intro .block1 {
@@ -522,9 +521,6 @@
   flex: 3;
 }
 
-/* .checkoutItem .block2 {
-  flex: 3;
-} */
 .checkoutItem .block3 {
   flex: 3;
   align-items: center;
@@ -534,13 +530,6 @@
   padding-right: 2rem;
 }
 
-/* .checkoutItem .block4 {
-  flex: 1;
-}
-
-.checkoutItem .block5 {
-  flex: 1;
-} */
 #checkoutSummary .block1 {
   flex: 4;
 }
@@ -588,33 +577,48 @@
   margin-left: 3rem;
 }
 
-/*Events Page*/
-#eventsInfo .block1 {
+/*Trending Page*/
+#trendingIntro .block1 {
   flex: 1;
 }
 
-#eventsInfo .block2 {
+#trendingIntro .block2 {
   flex: 5;
 }
 
-#eventsInfo .block3 {
+#trendingIntro .block3 {
   flex: 1;
+}
+
+#spicyNoodleTitle {
+  margin-top: 3rem;
+  margin-left: 5rem;
 }
 
 .kidsTrySection .block1 {
   flex: 6;
+  margin-left: 5rem;
 }
 
 .kidsTrySection .block2 {
-  flex: 1;
+  flex: 5;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 5rem;
 }
 
 .kidsTrySection .block3 {
   flex: 5;
   display: flex;
   align-items: center;
-  padding-left: 2rem;
-  padding-right: 5rem;
+  padding-left: 5rem;
+  padding-right: 2rem;
+}
+
+.kidsTrySection .block4 {
+  flex: 6;
+  margin-right: 5rem;
 }
 
 /*Product Detail Page*/
@@ -781,7 +785,7 @@
   }
 
   h2 {
-    font-size: 3rem;
+    font-size: 5rem;
   }
 
   .intro .block1 {
@@ -1176,7 +1180,7 @@
   }
 
   h2 {
-    font-size: 3.5rem;
+    font-size: 5rem;
   }
 
   .checkout-img-noodle {
@@ -1664,5 +1668,51 @@
     position: relative;
     width: 100%;
     box-shadow: none;
+  }
+
+  /*Trending Page*/
+  #trendingIntro .block1 {
+    flex: 1;
+  }
+
+  #trendingIntro .block2 {
+    flex: 5;
+  }
+
+  #trendingIntro .block3 {
+    flex: 1;
+  }
+
+  #spicyNoodleTitle {
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+
+  .kidsTrySection .block1 {
+    flex: 6;
+    margin-left: 0;
+    order: 0;
+  }
+
+  .kidsTrySection .block2 {
+    flex: 5;
+    display: flex;
+    align-items: center;
+    padding: 2rem 3rem 1rem 3rem;
+    order: 1;
+  }
+
+  .kidsTrySection .block3 {
+    flex: 5;
+    display: flex;
+    align-items: center;
+    padding: 2rem 3rem 1rem 3rem;
+    order: 1;
+  }
+
+  .kidsTrySection .block4 {
+    flex: 6;
+    margin-right: 0;
+    order: 0;
   }
 }
