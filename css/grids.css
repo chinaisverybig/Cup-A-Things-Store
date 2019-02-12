@@ -466,43 +466,15 @@
   padding: 2rem 0;
 }
 
-.popular_noodles .block1 {
-  flex: 5;
-  padding: 2rem 1rem 0 1rem;
-}
+.popular_noodles .block1 {}
 
-.popular_noodles .block2 {
-  flex: 1;
-}
+.popular_noodles .block2 {}
 
-.popular_noodles .block3 {
-  flex: 5;
-}
+.popular_noodles .block3 {}
 
-.popular_noodles .block4 {
-  padding: 2rem 1rem 0 0;
-  flex: 3;
-}
+.popular_noodles .block4 {}
 
-.popular_noodles .block5 {
-  margin-top: 1rem;
-  flex: 3;
-  padding: 2rem 1rem 0 1rem;
-}
-
-.popular_noodles_2 .block1 {
-  padding: 2rem 0 0 1rem;
-  flex: 6;
-}
-
-.popular_noodles_2 .block2 {
-  flex: 1;
-}
-
-.popular_noodles_2 .block3 {
-  padding: 2rem 1rem 0 0;
-  flex: 5;
-}
+.popular_noodles .block5 {}
 
 /*Checkout Cart Page*/
 #checkoutIntro .block1 {
