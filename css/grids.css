@@ -53,11 +53,19 @@
 /*Introduction Section*/
 #cupAThings {
   max-height: 70vh;
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
+  z-index: 1;
+  position: relative;
+}
+
+.shopping #goToStore {
+  flex: 1;
+  margin: 0 5rem;
 }
 
 #bestSeller {
   max-height: 35vh;
+  z-index: 1000000;
 }
 
 #products {
@@ -616,6 +624,17 @@
 }
 
 /*Popular Noodles Section*/
+#popular_noodles {
+  z-index: 1;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+
+.slick-slide {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
 .popular_noodles .block1 {
   padding: 1rem 0 0 1rem;
 }
@@ -1010,6 +1029,11 @@
   #cupAThings {
     max-height: 100vh;
     margin-bottom: 0;
+  }
+
+  .shopping #goToStore {
+    flex: 1;
+    margin: 0;
   }
 
   #bestSeller {
