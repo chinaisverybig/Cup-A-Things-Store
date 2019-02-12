@@ -466,16 +466,6 @@
   padding: 2rem 0;
 }
 
-.popular_noodles .block1 {}
-
-.popular_noodles .block2 {}
-
-.popular_noodles .block3 {}
-
-.popular_noodles .block4 {}
-
-.popular_noodles .block5 {}
-
 /*Checkout Cart Page*/
 #checkoutIntro .block1 {
   flex: 2;
@@ -623,6 +613,27 @@
 #detailSection .block5 {
   margin-top: 1.5rem;
   margin-left: 1rem;
+}
+
+/*Popular Noodles Section*/
+.popular_noodles .block1 {
+  padding: 1rem 0 0 1rem;
+}
+
+.popular_noodles .block2 {
+  padding: 1rem 1rem 0 0;
+}
+
+.popular_noodles .block3 {
+  padding: 1rem 0 0 1rem;
+}
+
+.popular_noodles .block4 {
+  padding: 1rem 0 0 1rem;
+}
+
+.popular_noodles .block5 {
+  padding: 1rem 1rem 0 0;
 }
 
 /*for tablet*/
@@ -991,30 +1002,6 @@
 
   #checkoutSummary .block4 {
     flex: 1;
-  }
-
-  /*Product Page*/
-  .popular_noodles .block1 {
-    flex: 5;
-  }
-
-  .popular_noodles .block2 {
-    flex: 0;
-    display: none;
-  }
-
-  .popular_noodles .block3 {
-    flex: 5;
-  }
-
-  .popular_noodles .block4 {
-    flex: 3;
-    margin-left: 1rem;
-  }
-
-  .popular_noodles .block5 {
-    flex: 3;
-    margin-left: 1rem;
   }
 }
 
@@ -1575,38 +1562,6 @@
   }
 
   /*Product Page*/
-  .popular_noodles .block1 {
-    flex: 0;
-    display: none;
-    order: 0;
-    margin: 0;
-  }
-
-  .popular_noodles .block2 {
-    flex: 0;
-    display: none;
-    order: 1;
-    margin: 0;
-  }
-
-  .popular_noodles .block3 {
-    flex: 3;
-    order: 2;
-    margin: 0;
-  }
-
-  .popular_noodles .block4 {
-    flex: 3;
-    order: 3;
-    margin: 0;
-  }
-
-  .popular_noodles .block5 {
-    flex: 3;
-    order: 4;
-    margin: 0;
-  }
-
   .product_listing .block1 {
     flex: 0;
     display: none;
