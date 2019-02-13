@@ -84,7 +84,7 @@ p {
 .menuBar {
   padding: 0;
   width: 100%;
-  background-color: #ffffff99;
+  background-color: #ffffffdd;
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   font-weight: 300;
@@ -117,6 +117,10 @@ p {
 
 #laptopMenu #visit {
   border-bottom: 0.25rem solid #f16668;
+}
+
+#laptopMenu #visit a {
+  color: #f16668;
 }
 
 #laptopMenu li:hover, #laptopMenu li:focus {
