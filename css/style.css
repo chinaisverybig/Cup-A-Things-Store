@@ -82,23 +82,48 @@ p {
 
 /*navigation menu*/
 .menuBar {
-  background-color: #ffffff;
-  font-family: 'Lato', sans-serif;
+  padding: 0;
+  width: 100%;
+  background-color: #ffffff99;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   font-weight: 300;
+  text-transform: uppercase;
   /* height: 5rem; */
 }
 
 /*navigation menu*/
 .menuBar a {
   overflow: hidden;
-  margin-top: 1.5rem;
-  float: left;
 }
 
 /*navigation menu*/
 .menuBar a:hover, .menuBar a:focus {
   text-decoration: none;
+}
+
+#laptopMenu {
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  list-style-type: none;
+}
+
+#laptopMenu li {
+  display: inline-block;
+  border-bottom: 0.25rem solid transparent;
+  transition: border-bottom 0.5s ease;
+  margin: 0;
+  padding: 0;
+}
+
+#laptopMenu li:hover, #laptopMenu li:focus {
+  border-bottom: 0.25rem solid #f16668;
+  transition: border-bottom 0.5s ease;
+}
+
+#laptopMenu a {
+  display: block;
 }
 
 /*code portion*/
@@ -129,10 +154,9 @@ footer {
 .active {
   position: fixed;
   top: 0;
-  display: block;
   width: 100%;
   z-index: 999;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 8px #33333390;
   text-decoration: none;
   transition: top 0.3s;
 }
@@ -160,8 +184,7 @@ footer {
 
 /*This is the styling for the navigation buttons*/
 .button-nav {
-  display: inline-block;
-  padding: 1rem 2rem;
+  padding: 1.75rem 2rem 1rem 2rem;
   color: #232323;
   text-decoration: none;
   transition: color 0.5s ease;
@@ -777,6 +800,10 @@ footer {
   font-family: 'Shrikhand', cursive;
   font-size: 2rem;
   letter-spacing: 0.2rem
+}
+
+#visit {
+  border-bottom: 0.25rem solid #f16668;
 }
 
 /*

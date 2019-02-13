@@ -752,6 +752,7 @@
   }
 
   #menu {
+    text-align: center;
     overflow-y: scroll;
     position: absolute;
     width: 100%;
@@ -765,8 +766,13 @@
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
   }
 
+  #menu li {
+    padding: 0;
+  }
+
   #menu li a {
-    padding: 0.5em 0;
+    display: block;
+    padding: 1rem 0;
     font-size: 1rem;
     color: white;
     font-family: 'Lato', sans-serif;
@@ -786,12 +792,13 @@
     position: fixed;
     display: block;
     padding: 0.8rem 0;
-    z-index: 100000;
+    z-index: 1000;
   }
 
   #menu li a:hover {
+    padding: 1rem 0;
+    border: 0.1rem solid #f16668;
     text-decoration: none;
-    background-color: #ffffff;
     color: #f16668;
   }
 
@@ -1056,13 +1063,14 @@
 
   .shopping .block2 {
     flex: 1;
-    margin: 0;
+    margin: 1rem 0 0 0;
     order: 1;
   }
 
   #bestSeller {
     max-height: 100vh;
     margin-bottom: 0;
+    margin-top: 1rem;
   }
 
   #products {
@@ -1150,8 +1158,13 @@
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
   }
 
+  #menu li {
+    padding: 0;
+  }
+
   #menu li a {
-    padding: 0.5em 0;
+    display: block;
+    padding: 1rem 0;
     font-size: 1rem;
     color: white;
     font-family: 'Lato', sans-serif;
@@ -1179,8 +1192,9 @@
   }
 
   #menu li a:hover {
+    padding: 1rem 0;
+    border: 0.1rem solid #f16668;
     text-decoration: none;
-    background-color: #ffffff;
     color: #f16668;
   }
 
