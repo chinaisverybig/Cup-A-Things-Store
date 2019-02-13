@@ -113,13 +113,14 @@ p {
   display: inline-block;
   border-bottom: 0.25rem solid transparent;
   transition: border-bottom 0.5s ease;
-  margin: 0;
-  padding: 0;
+}
+
+#laptopMenu #visit {
+  border-bottom: 0.25rem solid #f16668;
 }
 
 #laptopMenu li:hover, #laptopMenu li:focus {
   border-bottom: 0.25rem solid #f16668;
-  transition: border-bottom 0.5s ease;
 }
 
 #laptopMenu a {
@@ -800,10 +801,6 @@ footer {
   font-family: 'Shrikhand', cursive;
   font-size: 2rem;
   letter-spacing: 0.2rem
-}
-
-#visit {
-  border-bottom: 0.25rem solid #f16668;
 }
 
 /*
