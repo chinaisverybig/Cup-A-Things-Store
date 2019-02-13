@@ -1,4 +1,8 @@
 /* Slider */
+.slide {
+  height: 100%;
+}
+
 .slider {
   margin: auto;
   width: 80%;
@@ -53,7 +57,7 @@
   position: relative;
   top: 0;
   left: 0;
-  display: block;
+  display: flex !important;
   margin-left: auto;
   margin-right: auto;
 }
@@ -73,9 +77,11 @@
 }
 
 .slick-slide {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
   display: none;
   float: left;
-  height: 100%;
+  height: auto;
   min-height: 1px;
 }
 

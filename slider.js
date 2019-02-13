@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('.popular_noodles').slick({
+  $('.slider').slick({
     dots: true,
     infinite: true,
     slidesToShow: 3,
@@ -7,6 +7,7 @@ $(document).ready(function() {
     autoplay: true,
     autoplaySpeed: 2000,
     speed: 300,
+    rows: 0,
     responsive: [{
         breakpoint: 840,
         settings: {
