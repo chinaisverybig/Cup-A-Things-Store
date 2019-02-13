@@ -702,7 +702,7 @@ footer {
   overflow: hidden;
   position: relative;
   text-align: center;
-  cursor: default;
+  cursor: pointer;
 }
 
 .hovereffect .overlay {
@@ -746,7 +746,7 @@ footer {
   text-transform: uppercase;
   color: #fff;
   border: 1px solid #fff;
-  margin: 50px 0 0 0;
+  margin: auto;
   background-color: transparent;
   opacity: 0;
   filter: alpha(opacity=0);
@@ -756,12 +756,11 @@ footer {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   font-weight: normal;
-  height: 85%;
-  width: 85%;
+  height: 90%;
+  width: 90%;
   position: absolute;
-  top: 0%;
-  left: 7.5%;
-  padding: 70px;
+  top: 5%;
+  left: 5%;
 }
 
 .hovereffect:hover a.info {
@@ -771,6 +770,13 @@ footer {
   -ms-transform: scale(1);
   transform: scale(1);
   background-color: rgba(0, 0, 0, 0.4);
+}
+
+.overlay a {
+  color: #333333;
+  font-family: 'Shrikhand', cursive;
+  font-size: 2rem;
+  letter-spacing: 0.2rem
 }
 
 /*
