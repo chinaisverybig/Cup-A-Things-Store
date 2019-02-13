@@ -360,6 +360,7 @@ footer {
 }
 
 .img-noodle {
+  max-width: 100%;
   opacity: 1;
   transition: opacity 0.5s ease;
 }
@@ -770,7 +771,7 @@ footer {
 .hovereffect a.info {
   display: inline-block;
   text-decoration: none;
-  padding: 1rem 1rem;
+  padding: 5rem 2rem;
   text-transform: uppercase;
   color: #fff;
   border: 1px solid #fff;
@@ -805,6 +806,10 @@ footer {
   font-family: 'Shrikhand', cursive;
   font-size: 2rem;
   letter-spacing: 0.2rem
+}
+
+.product_row {
+  margin: 0 5rem 4rem 4rem;
 }
 
 /*
