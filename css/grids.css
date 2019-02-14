@@ -839,6 +839,19 @@
     width: 90%;
   }
 
+  .contact-text-box[type=text] {
+    width: 90%;
+  }
+
+  /*input text-box styling*/
+  .contact-text-box[type=text]:focus {
+    width: 90%;
+  }
+
+  .contact-textarea {
+    width: 90%;
+  }
+
   .payment-title {
     font-size: 2rem;
   }
@@ -1242,6 +1255,19 @@
 
   /*input text-box styling*/
   .text-box[type=text]:focus {
+    width: 100%;
+  }
+
+  .contact-text-box[type=text] {
+    width: 100%;
+  }
+
+  /*input text-box styling*/
+  .contact-text-box[type=text]:focus {
+    width: 100%;
+  }
+
+  .contact-textarea {
     width: 100%;
   }
 
