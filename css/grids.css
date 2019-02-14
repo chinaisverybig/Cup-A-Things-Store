@@ -489,17 +489,21 @@
   flex: 2;
 }
 
-.checkoutItem .block1 {
-  flex: 3;
+.checkoutItem {
+  align-items: center;
 }
 
-.checkoutItem .block3 {
-  flex: 3;
+.checkoutItem .block1 {
+  flex: 1 40%;
+  padding: 0 5%;
+}
+
+.checkoutItem .block2 {
+  flex: 1 40%;
   align-items: center;
   display: flex;
   flex-direction: column;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding: 0 5% 0 0;
 }
 
 #checkoutSummary .block1 {
@@ -803,6 +807,20 @@
     font-size: 4.5rem;
   }
 
+  /*input text-box styling*/
+  .text-box[type=text] {
+    width: 90%;
+  }
+
+  /*input text-box styling*/
+  .text-box[type=text]:focus {
+    width: 90%;
+  }
+
+  .payment-title {
+    font-size: 2rem;
+  }
+
   .intro .block1 {
     flex: 1;
   }
@@ -983,38 +1001,19 @@
   }
 
   .checkoutItem .block1 {
-    flex: 3;
+    flex: 1 46%;
+    padding: 0 2%;
   }
 
   .checkoutItem .block2 {
-    flex: 3;
-  }
-
-  .checkoutItem .block3 {
-    flex: 3;
-  }
-
-  .checkoutItem .block4 {
-    flex: 1;
-  }
-
-  .checkoutItem .block5 {
-    flex: 1;
+    flex: 1 46%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2%;
   }
 
   #checkoutSummary .block1 {
-    flex: 1;
-  }
-
-  #checkoutSummary .block2 {
-    flex: 5;
-  }
-
-  #checkoutSummary .block3 {
-    flex: 1;
-  }
-
-  #checkoutSummary .block4 {
     flex: 1;
   }
 
@@ -1186,8 +1185,46 @@
     font-size: 4rem;
   }
 
+  .payment-title {
+    font-size: 4rem;
+  }
+
+  #paymentInfo .block3 {
+    flex: 10;
+    padding: 2rem 5rem 2rem 3rem;
+    margin-left: 0;
+  }
+
   .checkout-img-noodle {
     margin-left: 0;
+  }
+
+  .flex-container.checkoutItem {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  /*input text-box styling*/
+  .text-box[type=text] {
+    width: 100%;
+  }
+
+  /*input text-box styling*/
+  .text-box[type=text]:focus {
+    width: 100%;
+  }
+
+  .checkoutItem .block1 {
+    flex: 1 50%;
+    padding: 0;
+  }
+
+  .checkoutItem .block2 {
+    flex: 1 46%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2%;
   }
 
   .item {

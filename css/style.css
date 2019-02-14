@@ -207,9 +207,9 @@ footer {
   font-weight: 300;
   background-color: white;
   border: 0.05rem solid #333333;
-  border-radius: 0.3rem;
+  border-radius: 2rem;
   color: #333333;
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 1.5rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -218,10 +218,11 @@ footer {
 }
 
 .button:hover, .button:focus {
+  cursor: pointer;
   background-color: #f16668;
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 1.5rem;
   border: none;
-  border-radius: 0.3rem;
+  border-radius: 2rem;
   color: white;
   text-align: center;
   text-decoration: none;
@@ -230,15 +231,13 @@ footer {
 
 /* this is the styling for the remove buttons in cart */
 .remove_button {
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   background-color: white;
   border: 0.05rem solid #333333;
-  border-radius: 0.3rem;
+  border-radius: 1rem;
   color: #333333;
-  padding: 0.3rem 1.4rem;
+  padding: 0.5rem 1.5rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -248,9 +247,9 @@ footer {
 
 .remove_button:hover, .remove_button:focus {
   background-color: lightgrey;
-  padding: 0.3rem 1.4rem;
+  padding: 0.5rem 1.5rem;
   border: none;
-  border-radius: 0.3rem;
+  border-radius: 4rem;
   color: white;
   text-align: center;
   text-decoration: none;
@@ -338,9 +337,7 @@ footer {
 
 .checkout_cart_noodles {
   clear: both;
-  margin-bottom: 1rem;
   margin-left: 1rem;
-  margin-top: 1rem;
   color: #333333;
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
@@ -350,13 +347,6 @@ footer {
 
 .checkout-img-background {
   background-color: #a8cfe5;
-}
-
-.checkout-img-noodle {
-  margin-top: 3rem;
-  margin-left: 2rem;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
 }
 
 .img-noodle {
@@ -383,7 +373,7 @@ footer {
 }
 
 .payment-title {
-  font-size: 3vw !important;
+  font-size: 2.5rem;
 }
 
 /*placing the title at the center of the container*/
@@ -400,10 +390,6 @@ footer {
   padding-top: 4rem;
   position: relative;
   text-align: center;
-}
-
-.payment-title {
-  font-size: 3vw !important;
 }
 
 /*floats images and text to left or right*/
@@ -572,10 +558,6 @@ footer {
   margin-right: 2rem;
 }
 
-.checkout-text {
-  margin-top: 2rem;
-}
-
 /*padding for each section*/
 #about {
   padding: 2rem 0rem 2rem 2rem;
@@ -676,34 +658,6 @@ footer {
 .white {
   /*Set color of container to white*/
   background-color: white;
-}
-
-/* this is the styling for the remove buttons in cart */
-.remove_button {
-  margin-bottom: 1rem;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  background-color: white;
-  border: 0.05rem solid #333333;
-  border-radius: 0.3rem;
-  color: #333333;
-  padding: 0.3rem 1.4rem;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 0.6em;
-  transition: background-color 0.5s ease;
-}
-
-.remove_button:hover, .remove_button:focus {
-  background-color: #dddddd;
-  padding: 0.3rem 1.4rem;
-  border: none;
-  border-radius: 0.3rem;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
 }
 
 #checkoutLeft {
