@@ -292,6 +292,13 @@ footer {
   display: inline-block;
 }
 
+.order_summary {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.15rem;
+  margin-top: 0;
+  margin-bottom: 0.4em;
+}
+
 /*This is part of the styling for the radio button*/
 .radio-label {
   display: block;
