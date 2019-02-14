@@ -169,7 +169,7 @@ footer {
 /*input text-box styling*/
 .text-box[type=text] {
   border: 0.1rem solid #666666;
-  border-radius: 10rem;
+  border-radius: 0.5rem;
   padding: 0.75rem 0.5rem;
   margin-bottom: 1rem;
   margin-top: 0.5rem;
@@ -185,6 +185,30 @@ footer {
   border-radius: 0.5rem;
   padding: 0.75rem 0.5rem;
   outline-width: 0;
+}
+
+.contact-text-box[type=text] {
+  border: 0.1rem solid #666666;
+  border-radius: 0.5rem;
+  padding: 0.75rem 0.5rem;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  outline-width: 0;
+  width: 60%;
+  clear: both;
+}
+
+.contact-textarea {
+  border: 0.1rem solid #666666;
+  border-radius: 0.5rem;
+  padding: 0.75rem 0.5rem;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  outline-width: 0;
+  width: 60%;
+  height: 120px;
+  resize: vertical;
+  clear: both;
 }
 
 /*This is the styling for the navigation buttons*/
@@ -359,6 +383,7 @@ footer {
 
 .address_sfu {
   max-width: 50%;
+  max-height: 30%;
   margin-left: 2rem;
 }
 
@@ -791,6 +816,10 @@ footer {
 
 .product_row {
   margin: 0 5rem 4rem 4rem;
+}
+
+.form-group {
+  text-align: center
 }
 
 /*
