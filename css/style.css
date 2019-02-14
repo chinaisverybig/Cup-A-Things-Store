@@ -476,6 +476,10 @@ footer {
   margin: 1rem 1rem 0 1rem;
 }
 
+.left-spacing {
+  margin: 1rem 0 1rem 1rem;
+}
+
 /*testing to make the paragraphs at the center*/
 .vertical-center {
   display: flex;
@@ -616,10 +620,6 @@ footer {
 }
 
 /*padding for each section*/
-#about {
-  padding: 2rem 0rem 2rem 2rem;
-}
-
 /*padding for each section*/
 #persona {
   padding: 2rem 2rem 0 0;

@@ -119,11 +119,38 @@
 }
 
 #aboutSection .block2 {
-  flex: 1;
+  flex: 5;
+  margin-right: 5rem;
 }
 
-#aboutSection .block3 {
+#followSection .block1 {
+  display: flex;
+  align-items: center;
+  flex: 6;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 5rem;
+  padding-right: 2rem;
+}
+
+#followSection .block2 {
   flex: 5;
+  margin-right: 5rem;
+}
+
+#factorySection .block1 {
+  flex: 7;
+  margin-left: 5rem;
+}
+
+#factorySection .block2 {
+  flex: 5;
+  display: flex;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 5rem;
 }
 
 /*Persona Section*/
@@ -828,12 +855,6 @@
     flex: 1;
   }
 
-  /*About Section*/
-  #aboutSection .block2 {
-    flex: 0;
-    display: none;
-  }
-
   /*Persona Section*/
   #personaSection .block2 {
     flex: 0;
@@ -1269,17 +1290,37 @@
     align-items: center;
     flex: 6;
     padding: 3rem;
-    order: 2;
-  }
-
-  #aboutSection .block2 {
-    flex: 1;
     order: 1;
   }
 
-  #aboutSection .block3 {
+  #aboutSection .block2 {
     flex: 5;
     order: 0;
+  }
+
+  #followSection .block1 {
+    align-items: center;
+    flex: 6;
+    order: 1;
+    padding: 3rem;
+  }
+
+  #followSection .block2 {
+    flex: 5;
+    order: 0;
+    margin-right: 0;
+    padding: 0;
+  }
+
+  #factorySection .block1 {
+    flex: 7;
+    margin-left: 0;
+  }
+
+  #factorySection .block2 {
+    flex: 5;
+    align-items: center;
+    padding: 3rem;
   }
 
   /*Persona Section*/
