@@ -345,14 +345,27 @@ footer {
   line-height: 1.4rem;
 }
 
+.contact_us_img {
+  background-color: #a8cfe5;
+  max-width: 100%;
+  height: 600px;
+  transition: 0.5s;
+  opacity 0.5s ease;
+}
+
+.contact_us_img:hover {
+  opacity: 0.6;
+}
+
 .checkout-img-background {
   background-color: #a8cfe5;
 }
 
 .img-noodle {
   max-width: 100%;
-  opacity: 1;
-  transition: opacity 0.5s ease;
+  opacity: 10;
+  transition: 0.5s;
+  opacity 0.5s ease;
 }
 
 .img-noodle:hover {
