@@ -413,6 +413,7 @@ footer {
   line-height: 2rem;
   letter-spacing: 0.15rem;
   text-transform: uppercase;
+  font-weight: 100;
 }
 
 /*Title screen at the beginning row/container */
