@@ -169,7 +169,7 @@ footer {
 /*input text-box styling*/
 .text-box[type=text] {
   border: 0.1rem solid #666666;
-  border-radius: 0.5rem;
+  border-radius: 10rem;
   padding: 0.75rem 0.5rem;
   margin-bottom: 1rem;
   margin-top: 0.5rem;
@@ -355,6 +355,11 @@ footer {
 
 .contact_us_img:hover {
   opacity: 0.6;
+}
+
+.address_sfu {
+  max-width: 50%;
+  margin-left: 2rem;
 }
 
 .checkout-img-background {
