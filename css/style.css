@@ -428,11 +428,10 @@ footer {
 
 .quote {
   color: #333333;
-  font-family: 'Shrikhand', cursive;
+  font-family: 'Lobster', cursive;
   font-size: 1.75rem;
   line-height: 2rem;
   letter-spacing: 0.15rem;
-  text-transform: uppercase;
   font-weight: 100;
 }
 

@@ -579,7 +579,7 @@
 }
 
 #spicyNoodleTitle {
-  margin-top: 3rem;
+  margin-top: 5rem;
   margin-left: 5rem;
 }
 
@@ -884,6 +884,11 @@
   #typographySection .block2 {
     flex: 0;
     display: none;
+  }
+
+  #spicyNoodleTitle {
+    margin-top: 3rem;
+    margin-left: 5rem;
   }
 
   /*Potential Images Section*/
