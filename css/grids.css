@@ -539,16 +539,12 @@
 }
 
 /*Payment Page*/
+#paymentIntro {
+  position: relative;
+}
+
 #paymentIntro .block1 {
-  flex: 0;
-}
-
-#paymentIntro .block2 {
-  flex: 8;
-}
-
-#paymentIntro .block3 {
-  flex: 0;
+  flex: 1;
 }
 
 #paymentInfo .block1 {
