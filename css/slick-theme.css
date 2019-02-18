@@ -57,7 +57,7 @@
 .slick-prev:before,
 .slick-next:before {
   font-family: 'slick';
-  font-size: 20px;
+  font-size: 2rem;
   line-height: 1;
   opacity: .75;
   color: black;
@@ -66,7 +66,7 @@
 }
 
 .slick-prev {
-  left: -25px;
+  left: -2.5rem;
 }
 
 [dir='rtl'] .slick-prev {
@@ -83,7 +83,7 @@
 }
 
 .slick-next {
-  right: -25px;
+  right: -1.75rem;
 }
 
 [dir='rtl'] .slick-next {
@@ -151,7 +151,7 @@
 
 .slick-dots li button:before {
   font-family: 'slick';
-  font-size: 6px;
+  font-size: 0.5rem;
   line-height: 20px;
   position: absolute;
   top: 0;
@@ -169,4 +169,16 @@
 .slick-dots li.slick-active button:before {
   opacity: .75;
   color: black;
+}
+
+@media only screen and (max-width:45rem) {
+
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 1.5rem;
+  }
+
+  .slick-prev {
+    left: -2rem;
+  }
 }

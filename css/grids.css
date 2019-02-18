@@ -661,7 +661,7 @@
 }
 
 .popular_noodles .block2 {
-  padding: 1rem 1rem 0 0;
+  padding: 1rem 0 0 1rem;
 }
 
 .popular_noodles .block3 {
@@ -674,6 +674,7 @@
 
 .popular_noodles .block5 {
   padding: 1rem 1rem 0 1rem;
+  text-align: left;
 }
 
 /*for tablet*/
