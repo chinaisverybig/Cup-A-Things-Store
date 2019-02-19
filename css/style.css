@@ -175,8 +175,8 @@ footer {
 /*input text-box styling*/
 .text-box[type=text] {
   border: 0.1rem solid #666666;
-  border-radius: 0.5rem;
-  padding: 0.75rem 0.5rem;
+  border-radius: 1.5rem;
+  padding: 0.8rem 0.5rem;
   margin-bottom: 1rem;
   margin-top: 0.5rem;
   outline-width: 0;
@@ -189,23 +189,23 @@ footer {
 .text-box[type=text]:focus {
   width: 70%;
   border: 0.1rem solid #f16668;
-  border-radius: 0.5rem;
-  padding: 0.75rem 0.5rem;
+  border-radius: 1.5rem;
+  padding: 0.8rem 0.5rem;
   outline-width: 0;
 }
 
 .contact-text-box[type=text]:focus {
   width: 70%;
   border: 0.1rem solid #f16668;
-  border-radius: 0.5rem;
-  padding: 0.75rem 0.5rem;
+  border-radius: 1.5rem;
+  padding: 0.8rem 0.5rem;
   outline-width: 0;
 }
 
 .contact-text-box[type=text] {
   border: 0.1rem solid #666666;
-  border-radius: 0.5rem;
-  padding: 0.75rem 0.5rem;
+  border-radius: 1.5rem;
+  padding: 0.8rem 0.5rem;
   margin-bottom: 1rem;
   margin-top: 0.5rem;
   outline-width: 0;
@@ -217,8 +217,8 @@ footer {
 .contact-textarea {
   font-size: 1em;
   border: 0.1rem solid #666666;
-  border-radius: 0.5rem;
-  padding: 0.75rem 0.5rem;
+  border-radius: 1.5rem;
+  padding: 0.8rem 0.5rem;
   margin-bottom: 1rem;
   margin-top: 0.5rem;
   outline-width: 0;
@@ -243,15 +243,15 @@ footer {
 
 /*This is the styling for buttons*/
 .button {
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-bottom: 1rem;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   background-color: white;
-  border: 0.05rem solid #333333;
-  border-radius: 2rem;
-  color: #333333;
-  padding: 0.75rem 1.5rem;
+  border: 0.05rem solid #f16668;
+  border-radius: 5rem;
+  color: #f16668;
+  padding: 0.75rem 2.5rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -262,9 +262,9 @@ footer {
 .button:hover, .button:focus {
   cursor: pointer;
   background-color: #f16668;
-  padding: 0.75rem 1.5rem;
+  padding: 0.75rem 2.5rem;
   border: none;
-  border-radius: 2rem;
+  border-radius: 5rem;
   color: white;
   text-align: center;
   text-decoration: none;
@@ -381,7 +381,15 @@ footer {
   background-color: #f8f7f0;
 } */
 .shadow {
-  box-shadow: 0.02rem 0.02rem #333333;
+  /* border: 0.25rem solid #f8f7f0; */
+  box-shadow: 0.01rem 0.01rem #333333;
+}
+
+.productTitle {
+  margin-top: 1rem;
+  color: #333333;
+  font-family: 'Shrikhand', cursive;
+  font-size: 1.25rem;
 }
 
 .checkout_cart_noodles {
@@ -417,13 +425,17 @@ footer {
 
 .img-noodle {
   max-width: 100%;
-  opacity: 10;
   transition: 0.5s;
-  opacity: 0.5 ease;
+  transition: transform 0.5s;
 }
 
 .img-noodle:hover {
-  opacity: 0.6;
+  transform: scale(1.1)
+}
+
+.productBackground {
+  background-color: #f8f7f0;
+  overflow: hidden;
 }
 
 .quote {
