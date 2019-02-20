@@ -243,7 +243,6 @@ footer {
 
 /*This is the styling for buttons*/
 .button {
-  margin-top: 1rem;
   margin-bottom: 1rem;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -263,7 +262,7 @@ footer {
   cursor: pointer;
   background-color: #f16668;
   padding: 0.75rem 2.5rem;
-  border: none;
+  border: 0.05rem solid white;
   border-radius: 5rem;
   color: white;
   text-align: center;
@@ -381,15 +380,36 @@ footer {
   background-color: #f8f7f0;
 } */
 .shadow {
-  /* border: 0.25rem solid #f8f7f0; */
-  box-shadow: 0.01rem 0.01rem #333333;
+  transition: 1.5s;
+}
+
+.shadow:hover {
+  box-shadow: 0.01rem 0.01rem 0.02rem #333333;
 }
 
 .productTitle {
   margin-top: 1rem;
+  margin-bottom: 0.75rem;
   color: #333333;
   font-family: 'Shrikhand', cursive;
   font-size: 1.25rem;
+}
+
+.price {
+  color: #999999;
+  font-size: 0.8rem;
+}
+
+.quantity {
+  color: #999999;
+  margin-bottom: 0;
+  font-size: 0.8rem;
+}
+
+.flavours {
+  color: #999999;
+  margin-bottom: 0;
+  font-size: 0.8rem;
 }
 
 .checkout_cart_noodles {
@@ -518,6 +538,13 @@ footer {
 }
 
 /* LINE STYLING*/
+.product-line {
+  clear: both;
+  width: 100%;
+  margin: 0 0 0.5rem 0;
+  border-top: 0.075rem solid #333333
+}
+
 .black-line {
   /*Set color of line to be black*/
   clear: both;

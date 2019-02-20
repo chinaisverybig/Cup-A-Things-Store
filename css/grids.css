@@ -1085,7 +1085,7 @@
   }
 
   #products {
-    margin-bottom: 1rem;
+    margin-bottom: 0;
   }
 
   /*I referenced the hamburger menu from the internet it is in my citation (NOT MY CODE)*/
@@ -1739,9 +1739,23 @@
 
   .product_listing .block1 {
     margin-top: 1rem;
-    padding: 2%;
-    flex: 1 42%;
-    margin: 2%
+    padding: 0 2% 0 0;
+    flex: 1 92%;
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .product_listing .block1 .productBackground {
+    display: flex;
+    align-items: center;
+    flex: 1 50%;
+  }
+
+  .product_listing .block1 .details {
+    margin: 3%;
+    flex: 1 44%;
   }
 
   #checkoutLeft {
