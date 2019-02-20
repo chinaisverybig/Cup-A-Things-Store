@@ -898,6 +898,28 @@ footer {
   margin: 0 auto;
 }
 
+.search {
+  z-index: 3;
+  width: 30%;
+  position: relative;
+  float: left;
+  margin-left: 5rem;
+}
+
+.search .text-box {
+  background-color: transparent;
+  width: 100%;
+  margin: 0;
+  padding: 0.5rem 0.5rem;
+}
+
+.search .text-box:focus {
+  background-color: transparent;
+  width: 100%;
+  margin: 0;
+  padding: 0.5rem 0.5rem;
+}
+
 /*
   COMBINED ELEMENTS -------------------
 */

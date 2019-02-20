@@ -1047,6 +1047,20 @@
   .overlay a {
     font-size: 1.5rem;
   }
+
+  .search {
+    margin-right: 4rem;
+  }
+
+  .search .text-box {
+    background-color: transparent;
+    width: 100%;
+  }
+
+  .search .text-box:focus {
+    background-color: transparent;
+    width: 100%;
+  }
 }
 
 /*for phone*/
@@ -1907,5 +1921,11 @@
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
+  }
+
+  .search {
+    float: left;
+    width: 90%;
+    margin: 1rem 5% 0 5%;
   }
 }
