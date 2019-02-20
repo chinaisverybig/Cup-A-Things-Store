@@ -52,10 +52,15 @@
 
 /*Introduction Section*/
 #cupAThings {
-  max-height: 55vh;
-  margin-bottom: 3rem;
   z-index: 1;
   position: relative;
+  margin-bottom: -5rem;
+}
+
+#trending {
+  z-index: 1;
+  position: relative;
+  margin-bottom: -5rem;
 }
 
 .shopping .block1 {
@@ -69,18 +74,14 @@
 }
 
 #bestSeller {
-  max-height: 35vh;
-  margin-top: 3rem;
-  z-index: 10;
+  z-index: 1;
+  position: relative;
 }
 
 #products {
-  max-height: 45vh;
-  margin-bottom: 6rem;
-}
-
-#trending {
-  max-height: 50vh;
+  z-index: 1;
+  position: relative;
+  margin-bottom: -7rem;
 }
 
 .intro .block1 {
@@ -89,6 +90,7 @@
 
 .intro .block2 {
   flex: 1.2;
+  z-index: 2;
 }
 
 .intro .block3 {
@@ -100,7 +102,8 @@
 }
 
 .popular .block2 {
-  flex: 2;
+  flex: 3;
+  z-index: 2;
 }
 
 .popular .block3 {
@@ -482,15 +485,16 @@
 
 /*Product Page*/
 #productIntro .block1 {
-  flex: 2;
+  flex: 1;
 }
 
 #productIntro .block2 {
-  flex: 8;
+  flex: 10;
+  z-index: 2;
 }
 
 #productIntro .block3 {
-  flex: 2;
+  flex: 1;
 }
 
 .product_listing {
@@ -569,6 +573,7 @@
 
 #trendingIntro .block2 {
   flex: 5;
+  z-index: 2;
 }
 
 #trendingIntro .block3 {
@@ -576,7 +581,6 @@
 }
 
 #spicyNoodleTitle {
-  margin-top: 5rem;
   margin-left: 5rem;
 }
 
@@ -654,7 +658,7 @@
 /*Popular Noodles Section*/
 #popular_noodles {
   z-index: 1;
-  margin-top: 4rem;
+  margin-top: 0;
   margin-bottom: 5rem;
 }
 
@@ -681,19 +685,8 @@
 
 /*for tablet*/
 @media only screen and (max-width:60rem) {
-  #cupAThings {
-    max-height: 100vh;
-    margin-bottom: 3rem;
-  }
-
   #bestSeller {
-    max-height: 100vh;
     margin-bottom: 0;
-  }
-
-  #products {
-    max-height: 45vh;
-    margin-bottom: 3rem;
   }
 
   #laptop {
@@ -1006,15 +999,15 @@
 
   /*Product Page*/
   #productIntro .block1 {
-    flex: 2;
+    flex: 1;
   }
 
   #productIntro .block2 {
-    flex: 8;
+    flex: 10;
   }
 
   #productIntro .block3 {
-    flex: 2;
+    flex: 1;
   }
 
   .product_listing .block1 {
@@ -1062,7 +1055,6 @@
 /*for phone*/
 @media only screen and (max-width:45rem) {
   #cupAThings {
-    max-height: 100vh;
     margin-bottom: 0;
   }
 
@@ -1079,7 +1071,6 @@
   }
 
   #bestSeller {
-    max-height: 100vh;
     margin-bottom: 0;
     margin-top: 1rem;
   }
@@ -1219,7 +1210,7 @@
   }
 
   h2 {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   h3 {
@@ -1228,6 +1219,29 @@
 
   h4 {
     font-size: 1rem;
+  }
+
+  .titleBackground {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+  }
+
+  .popular .titleBackground {
+    height: 100%;
+  }
+
+  #trendingIntro .titleBackground {
+    height: 100%;
+  }
+
+  #productIntro .titleBackground {
+    height: 100%;
+  }
+
+  #popular_noodles {
+    margin-top: 4rem;
   }
 
   .quote {
@@ -1769,6 +1783,10 @@
   }
 
   /*Trending Page*/
+  #trending {
+    margin-bottom: 0;
+  }
+
   #trendingIntro .block1 {
     flex: 1;
   }

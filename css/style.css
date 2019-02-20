@@ -7,6 +7,13 @@
   margin: 0;
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
 body {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
@@ -422,21 +429,23 @@ footer {
   line-height: 1.4rem;
 }
 
-/* .contact_us_img {
-  background-color: #a8cfe5;
-  max-width: 100%;
-  transition: 0.5s;
-  opacity 0.5s ease;
-} */
-/*
-.contact_us_img:hover {
-  opacity: 0.6;
-} */
-.address_sfu {
-  margin-top: 3rem;
-  max-width: 50%;
-  max-height: 30%;
-  margin-left: 2rem;
+.titleBackground {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 80%;
+}
+
+.popular .titleBackground {
+  height: 70%;
+}
+
+#trendingIntro .titleBackground {
+  height: 65%;
+}
+
+#productIntro .titleBackground {
+  height: 68%;
 }
 
 .checkout-img-background {
@@ -470,6 +479,7 @@ footer {
 /*Title screen at the beginning row/container */
 .title-screen {
   width: 100%;
+  z-index: 3;
   position: relative;
   text-align: left;
 }
