@@ -76,6 +76,7 @@
 #bestSeller {
   z-index: 1;
   position: relative;
+  margin-bottom: -2rem;
 }
 
 #products {
@@ -685,10 +686,6 @@
 
 /*for tablet*/
 @media only screen and (max-width:60rem) {
-  #bestSeller {
-    margin-bottom: 0;
-  }
-
   #laptop {
     display: none;
   }
