@@ -104,6 +104,9 @@ p {
   font-size: 1rem;
   font-weight: 300;
   text-transform: uppercase;
+  display: flex;
+  align-content: center;
+  align-items: center;
   /* height: 5rem; */
 }
 
@@ -122,6 +125,7 @@ p {
   list-style: none;
   text-align: center;
   list-style-type: none;
+  width: 100%;
 }
 
 #laptopMenu li {
@@ -931,9 +935,20 @@ footer {
 }
 
 .cart_icon {
-  width: 12%;
-}
+  width: 50px;
 
-/*
+  /* referenced w3school for list-style */
+  #sideMenu {
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding-right: 15px;
+  }
+
+  #more {
+    display: none;
+  }
+
+  /*
   COMBINED ELEMENTS -------------------
 */
