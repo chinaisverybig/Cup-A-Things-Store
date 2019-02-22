@@ -103,6 +103,7 @@ p {
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   font-weight: 300;
+  padding-left: 60px;
   text-transform: uppercase;
   display: flex;
   align-content: center;
@@ -935,20 +936,21 @@ footer {
 }
 
 .cart_icon {
-  width: 50px;
+  width: 35px;
+}
 
-  /* referenced w3school for list-style */
-  #sideMenu {
-    list-style: none;
-    list-style-type: none;
-    margin: 0;
-    padding-right: 15px;
-  }
+/* referenced w3school for list-style */
+#sideMenu {
+  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding-right: 25px;
+}
 
-  #more {
-    display: none;
-  }
+#more {
+  display: none;
+}
 
-  /*
+/*
   COMBINED ELEMENTS -------------------
 */
