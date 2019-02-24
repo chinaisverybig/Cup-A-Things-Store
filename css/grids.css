@@ -989,13 +989,17 @@
     width: 100%;
   }
 
+  .product_search .block1 {
+    width: 45%;
+  }
+
   .product_search a {
     width: 1.5rem;
     height: 1.5rem;
   }
 
   .product_search .block2 {
-    width: 15%;
+    width: 5%;
   }
 
   .product_search .block3 {
@@ -1958,5 +1962,23 @@
   .product_search .block1 {
     float: left;
     width: 100%;
+  }
+
+  .product_search .block2 {
+    width: 0%;
+  }
+
+  .product_search .block3 {
+    width: auto;
+    margin: 1rem 2rem 1rem 0;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .product_search .block4 {
+    width: auto;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: flex-start;
   }
 }

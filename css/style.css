@@ -906,6 +906,7 @@ footer {
 .search {
   margin-left: 6rem;
   margin-right: 5rem;
+  z-index: 4;
 }
 
 .product_search .block1 {
@@ -943,6 +944,45 @@ footer {
   width: 20%;
   display: flex;
   justify-content: center;
+  z-index: 3;
+}
+
+.dropDownMenu {
+  position: relative;
+  display: inline-block;
+}
+
+.dropDownContent {
+  display: none;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  background-color: #f8f7f099;
+}
+
+.product_search .dropDownContent a {
+  color: #333333;
+  border: 0.05rem solid #ffffff00;
+  font-size: 0.75rem;
+  width: 100%;
+  height: auto;
+  padding: 0.5rem 0.5rem;
+  text-decoration: none;
+  display: block;
+  position: relative;
+}
+
+.product_search .dropDownContent a:hover, .product_search .dropDownContent a:focus {
+  border: 0.05rem solid #f16668;
+  border-radius: 5rem;
+  background-color: #ffffff99;
+  display: block;
+}
+
+.dropDownMenu:hover .dropDownContent, .dropDownMenu:focus .dropDownContent {
+  display: block;
 }
 
 .product_search .block4 {
@@ -950,6 +990,7 @@ footer {
   width: 20%;
   display: flex;
   justify-content: center;
+  z-index: 3;
 }
 
 .form-group {
