@@ -485,6 +485,10 @@
 }
 
 /*Product Page*/
+.product_search {
+  position: relative;
+}
+
 #productIntro .block1 {
   flex: 1;
 }
@@ -884,6 +888,10 @@
     margin-left: 5rem;
   }
 
+  #products {
+    margin-bottom: -5rem;
+  }
+
   /*Potential Images Section*/
   .imageSection .block1 {
     flex: 0;
@@ -977,6 +985,33 @@
   }
 
   /*Product Listing Section*/
+  .product_search input.text-box {
+    width: 100%;
+  }
+
+  .product_search a {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .product_search .block2 {
+    width: 15%;
+  }
+
+  .product_search .block3 {
+    float: right;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .product_search .block4 {
+    float: right;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+  }
+
   #productList .block2 {
     flex: 0;
     display: none;
@@ -1046,20 +1081,6 @@
 
   .overlay a {
     font-size: 1.5rem;
-  }
-
-  .search {
-    margin-right: 4rem;
-  }
-
-  .search .text-box {
-    background-color: transparent;
-    width: 100%;
-  }
-
-  .search .text-box:focus {
-    background-color: transparent;
-    width: 100%;
   }
 }
 
@@ -1754,6 +1775,13 @@
   }
 
   /*Product Page*/
+  .product_search.flex-container {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
   .product_row {
     margin: 0;
   }
@@ -1924,8 +1952,11 @@
   }
 
   .search {
-    float: left;
-    width: 90%;
     margin: 1rem 5% 0 5%;
+  }
+
+  .product_search .block1 {
+    float: left;
+    width: 100%;
   }
 }

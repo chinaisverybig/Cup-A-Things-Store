@@ -904,25 +904,52 @@ footer {
 }
 
 .search {
+  margin-left: 6rem;
+  margin-right: 5rem;
+}
+
+.product_search .block1 {
   z-index: 3;
-  width: 30%;
-  position: relative;
+  width: 35%;
   float: left;
-  margin-left: 5rem;
+  position: relative;
 }
 
-.search .text-box {
+.product_search .block1 .text-box {
   background-color: transparent;
   width: 100%;
   margin: 0;
   padding: 0.5rem 0.5rem;
 }
 
-.search .text-box:focus {
+.product_search .block1 .text-box:focus {
   background-color: transparent;
   width: 100%;
   margin: 0;
   padding: 0.5rem 0.5rem;
+}
+
+.product_search .block2 {
+  width: 25%;
+}
+
+.product_search .button {
+  margin-bottom: 0;
+  padding: 0.5rem 2.5rem;
+}
+
+.product_search .block3 {
+  float: right;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.product_search .block4 {
+  float: right;
+  width: 20%;
+  display: flex;
+  justify-content: center;
 }
 
 .form-group {
@@ -936,9 +963,35 @@ footer {
 }
 
 .cart_icon {
-  width: 35px;
+  width: 2rem;
 }
 
+.product_search a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0.25rem 0.5rem 0.25rem 0;
+  width: 1.75rem;
+  height: 1.75rem;
+  z-index: 2;
+}
+
+/* .magnifyingGlassGray {
+  width: 100%;
+}
+
+.magnifyingGlassPink {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: none;
+  z-index: 5;
+}
+
+a:hover .magnifyingGlassPink, a:focus .magnifyingGlassPink {
+  display: inline;
+} */
 /* referenced w3school for list-style */
 #sideMenu {
   list-style: none;
