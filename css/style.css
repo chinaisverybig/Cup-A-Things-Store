@@ -242,6 +242,10 @@ footer {
   clear: both;
 }
 
+.contact-textarea:focus {
+  border: 0.1rem solid #f16668;
+}
+
 /*This is the styling for the navigation buttons*/
 .button-nav {
   padding: 1.75rem 2rem 1rem 2rem;
@@ -1015,6 +1019,14 @@ footer {
   width: 1.75rem;
   height: 1.75rem;
   z-index: 2;
+}
+
+.backButton {
+  position: absolute;
+  width: 3rem;
+  top: 5rem;
+  left: 1rem;
+  cursor: pointer;
 }
 
 /* .magnifyingGlassGray {
