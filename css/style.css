@@ -30,6 +30,7 @@ iframe {
 
 form {
   clear: both;
+  width: 100%;
 }
 
 label {
@@ -103,7 +104,6 @@ p {
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   font-weight: 300;
-  padding-left: 60px;
   text-transform: uppercase;
   display: flex;
   align-content: center;
@@ -242,6 +242,10 @@ footer {
   clear: both;
 }
 
+.contact-textarea:focus {
+  border: 0.1rem solid #f16668;
+}
+
 /*This is the styling for the navigation buttons*/
 .button-nav {
   padding: 1.75rem 2rem 1rem 2rem;
@@ -290,7 +294,7 @@ footer {
   font-weight: 300;
   background-color: white;
   border: 0.05rem solid #333333;
-  border-radius: 1rem;
+  border-radius: 4rem;
   color: #333333;
   padding: 0.5rem 1.5rem;
   text-align: center;
@@ -303,7 +307,7 @@ footer {
 .remove_button:hover, .remove_button:focus {
   background-color: lightgrey;
   padding: 0.5rem 1.5rem;
-  border: none;
+  border: 0.05rem solid #ffffff;
   border-radius: 4rem;
   color: white;
   text-align: center;
@@ -578,61 +582,6 @@ footer {
   border-top: 0.15rem solid #ffffff
 }
 
-.fat-line {
-  /*Set thickness of line*/
-  border-left-width: 0.6rem;
-}
-
-.heavy-line {
-  /*Set thickness of line*/
-  border-left-width: 0.4rem;
-}
-
-.regular-line {
-  /*Set thickness of line*/
-  border-left-width: 0.2rem;
-}
-
-.thin-line {
-  /*Set thickness of line*/
-  border-left-width: 0.1rem;
-}
-
-.rice-white-line {
-  /*Set color of line to be rice white*/
-  border-left-style: solid;
-  border-left-color: #f8f7f0;
-  height: 100%;
-}
-
-.pink-line {
-  /*Set color of line to be pink*/
-  border-left-style: solid;
-  border-left-color: #f16668;
-  height: 100%;
-}
-
-.dark-blue-line {
-  /*Set color of line to be dark blue*/
-  border-left-style: solid;
-  border-left-color: #42538a;
-  height: 100%;
-}
-
-.yellow-line {
-  /*Set color of line to be yellow*/
-  border-left-style: solid;
-  border-left-color: #f8e38f;
-  height: 100%;
-}
-
-.blue-line {
-  /*Set color of line to be blue*/
-  border-left-style: solid;
-  border-left-color: #a8cfe5;
-  height: 100%;
-}
-
 .left-line {
   float: left;
   margin-left: 0.7rem;
@@ -904,25 +853,93 @@ footer {
 }
 
 .search {
+  margin-left: 6rem;
+  margin-right: 5rem;
+  z-index: 4;
+}
+
+.product_search .block1 {
   z-index: 3;
-  width: 30%;
-  position: relative;
+  width: 35%;
   float: left;
-  margin-left: 5rem;
+  position: relative;
 }
 
-.search .text-box {
+.product_search .block1 .text-box {
   background-color: transparent;
   width: 100%;
   margin: 0;
   padding: 0.5rem 0.5rem;
 }
 
-.search .text-box:focus {
+.product_search .block1 .text-box:focus {
   background-color: transparent;
   width: 100%;
   margin: 0;
   padding: 0.5rem 0.5rem;
+}
+
+.product_search .block2 {
+  width: 25%;
+}
+
+.product_search .button {
+  margin-bottom: 0;
+  padding: 0.5rem 2.5rem;
+}
+
+.product_search .block3 {
+  float: right;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  z-index: 3;
+}
+
+.dropDownMenu {
+  position: relative;
+  display: inline-block;
+}
+
+.dropDownContent {
+  display: none;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  background-color: #f8f7f099;
+}
+
+.product_search .dropDownContent a {
+  color: #333333;
+  border: 0.05rem solid #ffffff00;
+  font-size: 0.75rem;
+  width: 100%;
+  height: auto;
+  padding: 0.5rem 0.5rem;
+  text-decoration: none;
+  display: block;
+  position: relative;
+}
+
+.product_search .dropDownContent a:hover, .product_search .dropDownContent a:focus {
+  border: 0.05rem solid #f16668;
+  border-radius: 5rem;
+  background-color: #ffffff99;
+  display: block;
+}
+
+.dropDownMenu:hover .dropDownContent, .dropDownMenu:focus .dropDownContent {
+  display: block;
+}
+
+.product_search .block4 {
+  float: right;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  z-index: 3;
 }
 
 .form-group {
@@ -936,15 +953,57 @@ footer {
 }
 
 .cart_icon {
-  width: 35px;
+  width: 1.5rem;
+}
+
+.search_icon {
+  width: 1.25rem;
+  margin-right: 0.5rem;
+  position: relative;
+}
+
+.product_search a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0.25rem 0.5rem 0.25rem 0;
+  width: 1.75rem;
+  height: 1.75rem;
+  z-index: 2;
+}
+
+.backButton {
+  position: absolute;
+  width: 3rem;
+  top: 6rem;
+  left: 1rem;
+  cursor: pointer;
+}
+
+.search_black {
+  width: 100%;
+}
+
+.search_pink {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: none;
+  z-index: 5;
+}
+
+a:hover .search_pink, a:focus .search_black {
+  display: inline;
 }
 
 /* referenced w3school for list-style */
 #sideMenu {
+  display: inherit;
   list-style: none;
   list-style-type: none;
   margin: 0;
-  padding-right: 25px;
+  padding-right: 1.5rem;
 }
 
 #more {
@@ -953,6 +1012,19 @@ footer {
 
 #myBtn {
   display: none;
+}
+
+#detailSection h3 {
+  font-family: 'Shrikhand', cursive;
+  font-size: 3rem;
+}
+
+#detailSection .black-line {
+  width: 75%;
+}
+
+#recommended_noodles h5 {
+  margin-left: 5rem;
 }
 
 /*

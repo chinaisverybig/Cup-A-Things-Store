@@ -8,6 +8,8 @@
 
   <link href="css/style.css" rel="stylesheet">
   <link href="css/grids.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/slick.css">
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
 
   <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
@@ -47,14 +49,18 @@
     </ul>
 
   </nav>
-
+  <div class="backButton">
+    <a onclick="goBack()">
+      <img src="img/backButton_black.png" class="back" alt="back button">
+    </a>
+  </div>
   <div class="white">
     <div class="flex-container" id="detailSection">
-      <div class="block1 yellow" id="details">
+      <div class="block1 rice-white" id="details">
         <img src="img/migoRengPacket.png" alt="Mi Goreng Pack of Instant Noodles">
       </div>
       <div class="block3">
-        <h3 class="black-text left-side right-spacing">CHU QIAN YI DING</h3>
+        <h3 class="black-text left-side right-spacing">MIGO RENG</h3>
         <div class="black-line left-side right-spacing"></div>
         <div class="block4">
           <h5>DESCRIPTION</h5>
@@ -73,10 +79,82 @@
       </div>
     </div>
   </div>
+
+  <div class="white row" id="recommended_noodles">
+    <h5>RECOMMENDED NOODLES</h5>
+
+    <section class="recommended slider">
+
+      <div class="block1 white shadow">
+        <div class="productBackground">
+          <a href="product_details_1.html" class="img-link">
+            <img class="img-noodle" src="img/chuQianYiDingPacket.png" alt="Chu Qian Yi Ding Instant Noodle">
+          </a>
+        </div>
+        <div class="details">
+          <p class="productTitle">Chu Qian Yi Ding</p>
+          <div class="product-line left-side"></div>
+          <p class="flavours">8 flavours</p>
+          <p class="price">$1.49 USD each</p>
+          <a href="product_details_1.html" class="button"> See More</a>
+        </div>
+      </div>
+
+      <div class="block1 white shadow">
+        <div class="productBackground">
+          <a href="product_details_2.html" class="img-link">
+            <img class="img-noodle" src="img/laksaPacket.png" alt="Laksa Instant Noodle">
+          </a>
+        </div>
+        <div class="details">
+          <p class="productTitle">Laksa</p>
+          <div class="product-line left-side"></div>
+          <p class="flavours">1 flavour</p>
+          <p class="price">$3.99 USD each</p>
+          <a href="product_details_2.html" class="button"> See More</a>
+        </div>
+      </div>
+      <div class="block1 white shadow">
+        <div class="productBackground">
+          <a href="product_details_3.html" class="img-link">
+            <img class="img-noodle" src="img/migoRengPacket.png" alt="Mi Goreng Instant Noodle">
+          </a>
+        </div>
+        <div class="details">
+          <p class="productTitle">Mi Goreng</p>
+          <div class="product-line left-side"></div>
+          <p class="flavours">4 flavours</p>
+          <p class="price">$0.99 USD each</p>
+          <a href="product_details_3.html" class="button"> See More</a>
+        </div>
+      </div>
+
+      <div class="block1 white shadow">
+        <div class="productBackground">
+          <a href="product_details_1.html" class="img-link">
+            <img class="img-noodle" src="img/neoguriPacket.png" alt="Neoguri Instant Noodle">
+          </a>
+        </div>
+        <div class="details">
+          <p class="productTitle">Neoguri</p>
+          <div class="product-line left-side"></div>
+          <p class="flavours">5 flavours</p>
+          <p class="price">$2.99 USD each</p>
+          <a href="product_details_1.html" class="button"> See More</a>
+        </div>
+      </div>
+
+    </section>
+  </div>
+
   <footer>
     <p class="center">© 2019 Cup A' Things</p>
   </footer>
-  <script src="menu.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/back.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="js/slick.js"></script>
+  <script src="js/slider.js"></script>
 
 </body>
 

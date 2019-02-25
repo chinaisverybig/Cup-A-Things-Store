@@ -161,13 +161,10 @@
 /*Persona Section*/
 #personaSection .block1 {
   flex: 5;
+  margin-left: 5rem;
 }
 
 #personaSection .block2 {
-  flex: 1;
-}
-
-#personaSection .block3 {
   display: flex;
   align-items: center;
   flex: 6;
@@ -185,46 +182,44 @@
 }
 
 #colorSection .block2 {
-  flex: 1;
-}
-
-#colorSection .block3 {
   flex: 7;
+  margin-right: 5rem;
 }
 
 /*Typography Section*/
 #typographySection .block1 {
   flex: 5;
+  margin-left: 5rem;
 }
 
 #typographySection .block2 {
-  flex: 1;
-}
-
-#typographySection .block3 {
   flex: 6;
 }
 
 /*Potential Images Section*/
 .imageSection .block1 {
-  flex: 1;
+  flex: 5;
+  margin-left: 5rem;
 }
 
 .imageSection .block2 {
   flex: 5;
-}
-
-.imageSection .block3 {
-  flex: 5;
+  margin-right: 5rem;
 }
 
 /*Interactive Elements Section*/
+#interactiveElementsSection {
+  margin-bottom: -4rem;
+  margin-top: 5rem;
+}
+
 #interactiveElementsSection .block1 {
   flex: 1;
 }
 
 #interactiveElementsSection .block2 {
   flex: 2;
+  z-index: 2;
 }
 
 #interactiveElementsSection .block3 {
@@ -234,13 +229,10 @@
 /*In-text Link Section*/
 #link .block1 {
   flex: 6;
+  margin-left: 5rem;
 }
 
 #link .block2 {
-  flex: 1;
-}
-
-#link .block3 {
   flex: 5;
   display: flex;
   flex-direction: column;
@@ -262,23 +254,17 @@
 }
 
 #navButton .block2 {
-  flex: 1;
-}
-
-#navButton .block3 {
   flex: 6;
+  margin-right: 5rem;
 }
 
 /*Submit/Reset Button Section*/
 #submitButton .block1 {
   flex: 6;
+  margin-left: 5rem;
 }
 
 #submitButton .block2 {
-  flex: 1;
-}
-
-#submitButton .block3 {
   flex: 5;
   display: flex;
   flex-direction: column;
@@ -299,23 +285,17 @@
 }
 
 #textInput .block2 {
-  flex: 1;
-}
-
-#textInput .block3 {
   flex: 6;
+  margin-right: 5rem;
 }
 
 /*Radio Button Section*/
 #radioButton .block1 {
   flex: 7;
+  margin-left: 5rem;
 }
 
 #radioButton .block2 {
-  flex: 1;
-}
-
-#radioButton .block3 {
   flex: 4;
   display: flex;
   flex-direction: column;
@@ -335,36 +315,36 @@
 }
 
 #imageLink .block2 {
-  flex: 1;
-}
-
-#imageLink .block3 {
   flex: 6;
+  margin-right: 5rem;
 }
 
 /*text_elements Section*/
+#textElementsSection {
+  margin-top: 5rem;
+  margin-bottom: -7rem;
+}
+
 #textElementsSection .block1 {
-  flex: 2;
+  flex: 1;
 }
 
 #textElementsSection .block2 {
   flex: 8;
+  z-index: 2;
 }
 
 #textElementsSection .block3 {
-  flex: 2;
+  flex: 1;
 }
 
 /*Heading Section*/
 #heading .block1 {
-  flex: 6;
+  flex: 4;
+  margin-left: 5rem;
 }
 
 #heading .block2 {
-  flex: 1;
-}
-
-#heading .block3 {
   flex: 5;
   display: flex;
   flex-direction: column;
@@ -384,23 +364,17 @@
 }
 
 #para .block2 {
-  flex: 1;
-}
-
-#para .block3 {
   flex: 6;
+  margin-right: 5rem;
 }
 
 /*Numbered List Section*/
 #numberedList .block1 {
   flex: 6;
+  margin-left: 5rem;
 }
 
 #numberedList .block2 {
-  flex: 1;
-}
-
-#numberedList .block3 {
   flex: 5;
   display: flex;
   flex-direction: column;
@@ -420,24 +394,18 @@
 }
 
 #navBar .block2 {
-  flex: 1;
-}
-
-#navBar .block3 {
   flex: 4;
+  margin-right: 5rem;
 }
 
 /*Product Listing Section*/
 #productList .block1 {
   flex: 4;
+  margin-left: 5rem;
 }
 
 #productList .block2 {
   flex: 1;
-}
-
-#productList .block3 {
-  flex: 7;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -458,23 +426,17 @@
 }
 
 #payment .block2 {
-  flex: 1;
-}
-
-#payment .block3 {
   flex: 5;
+  margin-right: 5rem;
 }
 
 /*Cart Section*/
-#cart .block1 {
-  flex: 5;
-}
-
-#cart .block2 {
-  flex: 1;
-}
-
 #cart .block3 {
+  flex: 5;
+  margin-left: 5rem;
+}
+
+#cart .block4 {
   flex: 6;
   display: flex;
   flex-direction: column;
@@ -485,6 +447,10 @@
 }
 
 /*Product Page*/
+.product_search {
+  position: relative;
+}
+
 #productIntro .block1 {
   flex: 1;
 }
@@ -527,8 +493,9 @@
 }
 
 .checkoutItem .block1 {
+  overflow: hidden;
   flex: 1 40%;
-  padding: 0 5%;
+  margin: 0 5%;
 }
 
 .checkoutItem .block2 {
@@ -627,6 +594,7 @@
 /*Product Detail Page*/
 #detailSection .block1 {
   padding-top: 4rem;
+  margin-left: 5rem;
   flex: 5;
 }
 
@@ -635,7 +603,7 @@
 }
 
 #detailSection .block3 {
-  margin-top: 4rem;
+  margin-top: 5rem;
   flex: 6;
   padding-left: 2rem;
 }
@@ -682,6 +650,16 @@
 .popular_noodles .block5 {
   padding: 1rem 1rem 0 1rem;
   text-align: left;
+}
+
+#recommended_noodles {
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+
+.recommended .block1 {
+  padding: 1rem;
+  margin: 0.1rem 0.25rem;
 }
 
 /*for tablet*/
@@ -861,6 +839,10 @@
     flex: 1;
   }
 
+  #detailSection .block3 {
+    margin-top: 3rem;
+  }
+
   /*Persona Section*/
   #personaSection .block2 {
     flex: 0;
@@ -882,6 +864,10 @@
   #spicyNoodleTitle {
     margin-top: 3rem;
     margin-left: 5rem;
+  }
+
+  #products {
+    margin-bottom: -5rem;
   }
 
   /*Potential Images Section*/
@@ -977,6 +963,37 @@
   }
 
   /*Product Listing Section*/
+  .product_search input.text-box {
+    width: 100%;
+  }
+
+  .product_search .block1 {
+    width: 45%;
+  }
+
+  .product_search a {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .product_search .block2 {
+    width: 5%;
+  }
+
+  .product_search .block3 {
+    float: right;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .product_search .block4 {
+    float: right;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+  }
+
   #productList .block2 {
     flex: 0;
     display: none;
@@ -1046,20 +1063,6 @@
 
   .overlay a {
     font-size: 1.5rem;
-  }
-
-  .search {
-    margin-right: 4rem;
-  }
-
-  .search .text-box {
-    background-color: transparent;
-    width: 100%;
-  }
-
-  .search .text-box:focus {
-    background-color: transparent;
-    width: 100%;
   }
 }
 
@@ -1232,6 +1235,10 @@
     font-size: 1rem;
   }
 
+  h5 {
+    font-size: 1.1rem;
+  }
+
   .titleBackground {
     position: absolute;
     z-index: 1;
@@ -1271,13 +1278,32 @@
     margin-left: 0;
   }
 
+  #detailSection .block1 {
+    padding-top: 4rem;
+    margin-left: 0;
+  }
+
   #detailSection .block3 {
     margin-top: 1rem;
+    padding: 0 2rem;
+  }
+
+  #detailSection .block3 .right-spacing {
+    margin: 1rem 0 0 0;
+    padding: 0;
+  }
+
+  #detailSection .block4 {
+    padding: 1rem 0 0 0;
   }
 
   #detailSection .block5 {
-    padding: 1.5rem 1rem;
+    padding: 1.5rem 0;
     margin: 0;
+  }
+
+  .backButton {
+    top: 4rem;
   }
 
   .checkout-img-noodle {
@@ -1742,7 +1768,7 @@
 
   /*Cart Section*/
   #cart .block1 {
-    flex: 5;
+    flex: 1;
     order: 0;
   }
 
@@ -1752,6 +1778,10 @@
   }
 
   #cart .block3 {
+    flex: 5;
+  }
+
+  #cart .block4 {
     flex: 6;
     display: flex;
     flex-direction: column;
@@ -1762,6 +1792,13 @@
   }
 
   /*Product Page*/
+  .product_search.flex-container {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
   .product_row {
     margin: 0;
   }
@@ -1932,8 +1969,38 @@
   }
 
   .search {
-    float: left;
-    width: 90%;
     margin: 1rem 5% 0 5%;
+  }
+
+  .product_search .block1 {
+    float: left;
+    width: 100%;
+  }
+
+  .product_search .block2 {
+    width: 0%;
+  }
+
+  .product_search .block3 {
+    width: auto;
+    margin: 1rem 2rem 1rem 0;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .product_search .block4 {
+    width: auto;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  #recommended_noodles {
+    margin-top: 0;
+    margin-bottom: 5rem;
+  }
+
+  #recommended_noodles h5 {
+    margin-left: 2rem;
   }
 }
