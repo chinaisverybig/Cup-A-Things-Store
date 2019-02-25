@@ -1444,6 +1444,14 @@
     order: 2;
   }
 
+  #more {
+    display: none;
+  }
+
+  #myBtn {
+    display: block;
+  }
+
   /*Potential Images Section*/
   .imageSection .block1 {
     flex: 1;

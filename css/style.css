@@ -948,6 +948,10 @@ footer {
 }
 
 #more {
+  display: block;
+}
+
+#myBtn {
   display: none;
 }
 
