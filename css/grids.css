@@ -161,13 +161,10 @@
 /*Persona Section*/
 #personaSection .block1 {
   flex: 5;
+  margin-left: 5rem;
 }
 
 #personaSection .block2 {
-  flex: 1;
-}
-
-#personaSection .block3 {
   display: flex;
   align-items: center;
   flex: 6;
@@ -185,46 +182,44 @@
 }
 
 #colorSection .block2 {
-  flex: 1;
-}
-
-#colorSection .block3 {
   flex: 7;
+  margin-right: 5rem;
 }
 
 /*Typography Section*/
 #typographySection .block1 {
   flex: 5;
+  margin-left: 5rem;
 }
 
 #typographySection .block2 {
-  flex: 1;
-}
-
-#typographySection .block3 {
   flex: 6;
 }
 
 /*Potential Images Section*/
 .imageSection .block1 {
-  flex: 1;
+  flex: 5;
+  margin-left: 5rem;
 }
 
 .imageSection .block2 {
   flex: 5;
-}
-
-.imageSection .block3 {
-  flex: 5;
+  margin-right: 5rem;
 }
 
 /*Interactive Elements Section*/
+#interactiveElementsSection {
+  margin-bottom: -4rem;
+  margin-top: 5rem;
+}
+
 #interactiveElementsSection .block1 {
   flex: 1;
 }
 
 #interactiveElementsSection .block2 {
   flex: 2;
+  z-index: 2;
 }
 
 #interactiveElementsSection .block3 {
@@ -234,13 +229,10 @@
 /*In-text Link Section*/
 #link .block1 {
   flex: 6;
+  margin-left: 5rem;
 }
 
 #link .block2 {
-  flex: 1;
-}
-
-#link .block3 {
   flex: 5;
   display: flex;
   flex-direction: column;
@@ -262,23 +254,17 @@
 }
 
 #navButton .block2 {
-  flex: 1;
-}
-
-#navButton .block3 {
   flex: 6;
+  margin-right: 5rem;
 }
 
 /*Submit/Reset Button Section*/
 #submitButton .block1 {
   flex: 6;
+  margin-left: 5rem;
 }
 
 #submitButton .block2 {
-  flex: 1;
-}
-
-#submitButton .block3 {
   flex: 5;
   display: flex;
   flex-direction: column;
@@ -299,23 +285,17 @@
 }
 
 #textInput .block2 {
-  flex: 1;
-}
-
-#textInput .block3 {
   flex: 6;
+  margin-right: 5rem;
 }
 
 /*Radio Button Section*/
 #radioButton .block1 {
   flex: 7;
+  margin-left: 5rem;
 }
 
 #radioButton .block2 {
-  flex: 1;
-}
-
-#radioButton .block3 {
   flex: 4;
   display: flex;
   flex-direction: column;
@@ -335,36 +315,36 @@
 }
 
 #imageLink .block2 {
-  flex: 1;
-}
-
-#imageLink .block3 {
   flex: 6;
+  margin-right: 5rem;
 }
 
 /*text_elements Section*/
+#textElementsSection {
+  margin-top: 5rem;
+  margin-bottom: -7rem;
+}
+
 #textElementsSection .block1 {
-  flex: 2;
+  flex: 1;
 }
 
 #textElementsSection .block2 {
   flex: 8;
+  z-index: 2;
 }
 
 #textElementsSection .block3 {
-  flex: 2;
+  flex: 1;
 }
 
 /*Heading Section*/
 #heading .block1 {
-  flex: 6;
+  flex: 4;
+  margin-left: 5rem;
 }
 
 #heading .block2 {
-  flex: 1;
-}
-
-#heading .block3 {
   flex: 5;
   display: flex;
   flex-direction: column;
@@ -384,23 +364,17 @@
 }
 
 #para .block2 {
-  flex: 1;
-}
-
-#para .block3 {
   flex: 6;
+  margin-right: 5rem;
 }
 
 /*Numbered List Section*/
 #numberedList .block1 {
   flex: 6;
+  margin-left: 5rem;
 }
 
 #numberedList .block2 {
-  flex: 1;
-}
-
-#numberedList .block3 {
   flex: 5;
   display: flex;
   flex-direction: column;
@@ -420,24 +394,18 @@
 }
 
 #navBar .block2 {
-  flex: 1;
-}
-
-#navBar .block3 {
   flex: 4;
+  margin-right: 5rem;
 }
 
 /*Product Listing Section*/
 #productList .block1 {
   flex: 4;
+  margin-left: 5rem;
 }
 
 #productList .block2 {
   flex: 1;
-}
-
-#productList .block3 {
-  flex: 7;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -458,23 +426,17 @@
 }
 
 #payment .block2 {
-  flex: 1;
-}
-
-#payment .block3 {
   flex: 5;
+  margin-right: 5rem;
 }
 
 /*Cart Section*/
-#cart .block1 {
-  flex: 5;
-}
-
-#cart .block2 {
-  flex: 1;
-}
-
 #cart .block3 {
+  flex: 5;
+  margin-left: 5rem;
+}
+
+#cart .block4 {
   flex: 6;
   display: flex;
   flex-direction: column;
@@ -531,8 +493,9 @@
 }
 
 .checkoutItem .block1 {
+  overflow: hidden;
   flex: 1 40%;
-  padding: 0 5%;
+  margin: 0 5%;
 }
 
 .checkoutItem .block2 {
@@ -1507,6 +1470,14 @@
     order: 2;
   }
 
+  #more {
+    display: none;
+  }
+
+  #myBtn {
+    display: block;
+  }
+
   /*Potential Images Section*/
   .imageSection .block1 {
     flex: 1;
@@ -1797,7 +1768,7 @@
 
   /*Cart Section*/
   #cart .block1 {
-    flex: 5;
+    flex: 1;
     order: 0;
   }
 
@@ -1807,6 +1778,10 @@
   }
 
   #cart .block3 {
+    flex: 5;
+  }
+
+  #cart .block4 {
     flex: 6;
     display: flex;
     flex-direction: column;

@@ -30,6 +30,7 @@ iframe {
 
 form {
   clear: both;
+  width: 100%;
 }
 
 label {
@@ -103,7 +104,6 @@ p {
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   font-weight: 300;
-  padding-left: 60px;
   text-transform: uppercase;
   display: flex;
   align-content: center;
@@ -294,7 +294,7 @@ footer {
   font-weight: 300;
   background-color: white;
   border: 0.05rem solid #333333;
-  border-radius: 1rem;
+  border-radius: 4rem;
   color: #333333;
   padding: 0.5rem 1.5rem;
   text-align: center;
@@ -307,7 +307,7 @@ footer {
 .remove_button:hover, .remove_button:focus {
   background-color: lightgrey;
   padding: 0.5rem 1.5rem;
-  border: none;
+  border: 0.05rem solid #ffffff;
   border-radius: 4rem;
   color: white;
   text-align: center;
@@ -580,61 +580,6 @@ footer {
   width: 7%;
   margin-bottom: 2rem;
   border-top: 0.15rem solid #ffffff
-}
-
-.fat-line {
-  /*Set thickness of line*/
-  border-left-width: 0.6rem;
-}
-
-.heavy-line {
-  /*Set thickness of line*/
-  border-left-width: 0.4rem;
-}
-
-.regular-line {
-  /*Set thickness of line*/
-  border-left-width: 0.2rem;
-}
-
-.thin-line {
-  /*Set thickness of line*/
-  border-left-width: 0.1rem;
-}
-
-.rice-white-line {
-  /*Set color of line to be rice white*/
-  border-left-style: solid;
-  border-left-color: #f8f7f0;
-  height: 100%;
-}
-
-.pink-line {
-  /*Set color of line to be pink*/
-  border-left-style: solid;
-  border-left-color: #f16668;
-  height: 100%;
-}
-
-.dark-blue-line {
-  /*Set color of line to be dark blue*/
-  border-left-style: solid;
-  border-left-color: #42538a;
-  height: 100%;
-}
-
-.yellow-line {
-  /*Set color of line to be yellow*/
-  border-left-style: solid;
-  border-left-color: #f8e38f;
-  height: 100%;
-}
-
-.blue-line {
-  /*Set color of line to be blue*/
-  border-left-style: solid;
-  border-left-color: #a8cfe5;
-  height: 100%;
 }
 
 .left-line {
@@ -1062,6 +1007,10 @@ a:hover .search_pink, a:focus .search_black {
 }
 
 #more {
+  display: block;
+}
+
+#myBtn {
   display: none;
 }
 
