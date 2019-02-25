@@ -1008,7 +1008,13 @@ footer {
 }
 
 .cart_icon {
-  width: 2rem;
+  width: 1.5rem;
+}
+
+.search_icon {
+  width: 1.25rem;
+  margin-right: 0.5rem;
+  position: relative;
 }
 
 .product_search a {
@@ -1029,11 +1035,11 @@ footer {
   cursor: pointer;
 }
 
-/* .magnifyingGlassGray {
+.search_black {
   width: 100%;
 }
 
-.magnifyingGlassPink {
+.search_pink {
   width: 100%;
   top: 0;
   left: 0;
@@ -1042,15 +1048,17 @@ footer {
   z-index: 5;
 }
 
-a:hover .magnifyingGlassPink, a:focus .magnifyingGlassPink {
+a:hover .search_pink, a:focus .search_black {
   display: inline;
-} */
+}
+
 /* referenced w3school for list-style */
 #sideMenu {
+  display: inherit;
   list-style: none;
   list-style-type: none;
   margin: 0;
-  padding-right: 25px;
+  padding-right: 1.5rem;
 }
 
 #more {
@@ -1060,6 +1068,10 @@ a:hover .magnifyingGlassPink, a:focus .magnifyingGlassPink {
 #detailSection h3 {
   font-family: 'Shrikhand', cursive;
   font-size: 3rem;
+}
+
+#detailSection .black-line {
+  width: 75%;
 }
 
 #recommended_noodles h5 {
