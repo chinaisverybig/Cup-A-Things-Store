@@ -631,6 +631,7 @@
 /*Product Detail Page*/
 #detailSection .block1 {
   padding-top: 4rem;
+  margin-left: 5rem;
   flex: 5;
 }
 
@@ -639,7 +640,7 @@
 }
 
 #detailSection .block3 {
-  margin-top: 4rem;
+  margin-top: 5rem;
   flex: 6;
   padding-left: 2rem;
 }
@@ -686,6 +687,16 @@
 .popular_noodles .block5 {
   padding: 1rem 1rem 0 1rem;
   text-align: left;
+}
+
+#recommended_noodles {
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+
+.recommended .block1 {
+  padding: 1rem;
+  margin: 0.1rem 0.25rem;
 }
 
 /*for tablet*/
@@ -863,6 +874,10 @@
 
   .intro .block3 {
     flex: 1;
+  }
+
+  #detailSection .block3 {
+    margin-top: 3rem;
   }
 
   /*Persona Section*/
@@ -1257,6 +1272,10 @@
     font-size: 1rem;
   }
 
+  h5 {
+    font-size: 1.1rem;
+  }
+
   .titleBackground {
     position: absolute;
     z-index: 1;
@@ -1296,13 +1315,32 @@
     margin-left: 0;
   }
 
+  #detailSection .block1 {
+    padding-top: 4rem;
+    margin-left: 0;
+  }
+
   #detailSection .block3 {
     margin-top: 1rem;
+    padding: 0 2rem;
+  }
+
+  #detailSection .block3 .right-spacing {
+    margin: 1rem 0 0 0;
+    padding: 0;
+  }
+
+  #detailSection .block4 {
+    padding: 1rem 0 0 0;
   }
 
   #detailSection .block5 {
-    padding: 1.5rem 1rem;
+    padding: 1.5rem 0;
     margin: 0;
+  }
+
+  .backButton {
+    top: 4rem;
   }
 
   .checkout-img-noodle {
@@ -1980,5 +2018,14 @@
     margin: 1rem 0;
     display: flex;
     justify-content: flex-start;
+  }
+
+  #recommended_noodles {
+    margin-top: 0;
+    margin-bottom: 5rem;
+  }
+
+  #recommended_noodles h5 {
+    margin-left: 2rem;
   }
 }

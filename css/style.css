@@ -1024,7 +1024,7 @@ footer {
 .backButton {
   position: absolute;
   width: 3rem;
-  top: 5rem;
+  top: 6rem;
   left: 1rem;
   cursor: pointer;
 }
@@ -1055,6 +1055,15 @@ a:hover .magnifyingGlassPink, a:focus .magnifyingGlassPink {
 
 #more {
   display: none;
+}
+
+#detailSection h3 {
+  font-family: 'Shrikhand', cursive;
+  font-size: 3rem;
+}
+
+#recommended_noodles h5 {
+  margin-left: 5rem;
 }
 
 /*
