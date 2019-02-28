@@ -1047,6 +1047,62 @@ a:hover .cart_icon_pink, a:focus .cart_icon_pink {
 
 #myBtn {
   display: none;
+  margin: 1rem auto;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  background-color: white;
+  border: 0.05rem solid #f16668;
+  border-radius: 5rem;
+  color: #f16668;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  transition: background-color 0.5s ease;
+}
+
+#more2 {
+  display: block;
+}
+
+#myBtn2 {
+  display: none;
+  margin: 1rem auto;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  background-color: white;
+  border: 0.05rem solid #f16668;
+  border-radius: 5rem;
+  color: #f16668;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  transition: background-color 0.5s ease;
+}
+
+#myBtn:hover, #myBtn:focus {
+  cursor: pointer;
+  background-color: #f16668;
+  padding: 0.5rem 1rem;
+  border: 0.05rem solid white;
+  border-radius: 5rem;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+#myBtn2:hover, #myBtn2:focus {
+  cursor: pointer;
+  background-color: #f16668;
+  padding: 0.5rem 1rem;
+  border: 0.05rem solid white;
+  border-radius: 5rem;
+  color: white;
+  text-align: center;
+  text-decoration: none;
 }
 
 #detailSection h3 {
