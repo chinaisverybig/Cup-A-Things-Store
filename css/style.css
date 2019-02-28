@@ -134,6 +134,7 @@ p {
   list-style-type: none;
   width: 100%;
   height: 4.3rem;
+  padding-left: 120px;
 }
 
 .laptopMenu li {
@@ -1114,6 +1115,18 @@ a:hover .cart_icon_pink, a:focus .cart_icon_pink {
 
 .link-nav:hover, .button-nav:focus {
   color: #f16668;
-  /*
+}
+
+#searchbar {
+  display: none;
+  width: 130px;
+  padding: 5px;
+  margin-right: 1rem;
+  border-radius: 15px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+/*
   COMBINED ELEMENTS -------------------
 */
