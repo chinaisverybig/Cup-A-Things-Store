@@ -1552,6 +1552,13 @@
     font-size: 4rem;
   }
 
+  #paymentInfo .block1 {
+    /*Payment form*/
+    flex: 10;
+    padding: 2rem;
+    margin-left: 0;
+  }
+
   #paymentInfo .block3 {
     flex: 10;
     padding: 2rem 5rem 2rem 3rem;

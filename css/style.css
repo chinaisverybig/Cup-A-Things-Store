@@ -1237,12 +1237,12 @@ a:hover .cart_icon_pink, a:focus .cart_icon_pink {
 
 /* social media is used for links that have Facebook, Twitter, Instagram and to decorate them with hover and focus  */
 .social_media {
-  color: rgb(50, 50, 255);
+  color: #42538a;
   text-decoration: none;
 }
 
 .social_media:hover {
-  color: rgb(0, 0, 255);
+  color: #a8cfe5;
   font-weight: bold;
 }
 
