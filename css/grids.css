@@ -823,6 +823,22 @@
     font-size: 4.5rem;
   }
 
+  #more {
+    display: none;
+  }
+
+  #myBtn {
+    display: block;
+  }
+
+  #more2 {
+    display: none;
+  }
+
+  #myBtn2 {
+    display: block;
+  }
+
   .quote {
     font-size: 1.25rem;
     line-height: 1.5rem;
@@ -1632,6 +1648,14 @@
   }
 
   #myBtn {
+    display: block;
+  }
+
+  #more2 {
+    display: none;
+  }
+
+  #myBtn2 {
     display: block;
   }
 
