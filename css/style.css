@@ -127,7 +127,7 @@ p {
   text-decoration: none;
 }
 
-#laptopMenu {
+.laptopMenu {
   margin: 0;
   list-style: none;
   text-align: center;
@@ -136,25 +136,25 @@ p {
   height: 4.3rem;
 }
 
-#laptopMenu li {
+.laptopMenu li {
   display: inline-block;
   border-bottom: 0.25rem solid transparent;
   transition: border-bottom 0.5s ease;
 }
 
-#laptopMenu #visit {
+.laptopMenu #visit {
   border-bottom: 0.25rem solid #f16668;
 }
 
-#laptopMenu #visit a {
+.laptopMenu #visit a {
   color: #f16668;
 }
 
-#laptopMenu li:hover, #laptopMenu li:focus {
+.laptopMenu li:hover, .laptopMenu li:focus {
   border-bottom: 0.25rem solid #f16668;
 }
 
-#laptopMenu a {
+.laptopMenu a {
   display: block;
 }
 
@@ -647,6 +647,7 @@ footer {
 }
 
 .order-summary {
+  margin-top: 2rem;
   margin-right: 2rem;
 }
 
@@ -701,7 +702,7 @@ footer {
 }
 
 #potential-img2 {
-  padding: 3.5rem 2rem 0 2rem;
+  padding: 2rem 2rem 0 2rem;
 }
 
 #potential-img3 {

@@ -31,7 +31,7 @@
     </div>
   </nav>
   <nav class="active menuBar" id="laptop">
-    <ul id="laptopMenu">
+    <ul class="laptopMenu">
       <li><a class="button-nav" href="#interactive_elements">Interactive Elements</a></li>
       <li><a class="button-nav" href="#text_elements">Text Elements</a></li>
       <li><a class="button-nav" href="#combined_elements">Combined Elements</a></li>
@@ -60,7 +60,7 @@
     </div>
 
     <div class="row white">
-      <div class="flex-container" id="aboutSection">
+      <div class="flex-container" id="aboutStyleGuide">
         <div class="block1">
           <p>Cup A’ Things is a major instant noodle importer and exporter, which headquarters in Canada. The company sells all brands of Asian instant noodles worldwide. The purpose of the company is to create convenience for
             its
@@ -72,7 +72,7 @@
             instant noodles. Our company stands out among other instant noodle importers, because we have every brand and flavour of instant noodle in our hands, and we sell at the lowest prices possible.
           </p>
         </div>
-        <div class="block2 rice-white" id="about">
+        <div class="block2 rice-white" id="aboutCompany">
           <h3 class="black-text left-side">ABOUT</h3>
           <div class="black-line left-side">
           </div>
@@ -201,8 +201,12 @@
   <div class="row white">
     <div class="flex-container" id="navButton">
       <div class="block1">
-        <h4 class="right-side">rendered element</h4>
-        <a class="button-nav right-side" href="#">Navigation Button</a>
+        <h4>rendered element</h4>
+        <ul class="laptopMenu">
+          <li>
+            <a class="button-nav right-side" href="#">Navigation Button</a>
+          </li>
+        </ul>
       </div>
       <div class="block2 yellow" id="navigation-link">
         <h3 class="black-text left-side">NAVIGATION LINK</h3>
@@ -211,7 +215,7 @@
         <h4>css selector</h4>
         <p>.button-nav</p>
         <h4>sample code</h4>
-        <code>&lt;a href="#" class="button-nav"&gt;Navigation Button&lt;/a&gt;</code>
+        <code>&lt;ul class="laptopMenu"&gt;&lt;li&gt;&lt;a href="#" class="button-nav"&gt;Navigation Button&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</code>
       </div>
     </div>
   </div>
@@ -227,14 +231,15 @@
         <p class="white-text">.remove_button</p>
         <h4 class="white-text">sample code</h4>
         <div>
-          <code>&lt;a href="#" class="remove_button"&gt;Reset&lt;/a&gt;</code>
           <code>&lt;a href="#" class="button"&gt;Submit&lt;/a&gt;</code>
+          <code>&lt;a href="#" class="remove_button"&gt;Reset&lt;/a&gt;</code>
         </div>
       </div>
       <div class="block2">
         <h4>rendered element</h4>
-        <a class="remove_button" href="#">Reset</a>
         <a class="button" href="#">Submit</a>
+        <a class="remove_button" href="#">Reset</a>
+
       </div>
     </div>
   </div>
@@ -597,7 +602,7 @@
 
     <div class="row white">
       <div class="flex-container" id="cart">
-        <div class="block3 blue submit-button">
+        <div class="block1 blue submit-button">
           <h3 class="white-text right-side">CHECKOUT CART</h3>
           <div class="white-line right-side">
           </div>
@@ -613,17 +618,19 @@
               &lt;a class="remove_button" href="#"&gt;Remove&lt;/a&gt;</code>
           </div>
         </div>
-        <div class="block4">
+        <div class="block2">
           <h4 class="middle-text">rendered element</h4>
-          <div class="flex-container checkoutItem">
-            <div class="block1 middle-text">
+
+          <div class="flex-container" id="cartItem">
+            <div class="cartPicture">
               <a href="#" class="img-link">
                 <img class="checkout-img-noodle img-noodle checkout-img-background" src="img/migoRengPacket.png" alt="Mi Goreng Instant Noodle Cup">
               </a>
             </div>
-            <div class="block2 middle-text">
-              <p class="checkout_cart_noodles">Mi Goreng</p>
-              <p class="checkout_cart_noodles">$0.99 USD each</p>
+            <div class="cartDetails">
+              <p class="productTitle">Mi Goreng</p>
+              <div class="product-line left-side"></div>
+              <p class="price">$1.49 USD each</p>
               <a class="remove_button" href="#">Remove</a>
             </div>
           </div>

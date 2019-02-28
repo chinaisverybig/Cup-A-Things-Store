@@ -54,7 +54,7 @@
 #cupAThings {
   z-index: 1;
   position: relative;
-  margin-bottom: -5rem;
+  margin-bottom: -4.5rem;
 }
 
 #trending {
@@ -126,6 +126,22 @@
   flex: 5;
   margin-right: 5rem;
   padding: 1rem 0 1rem 1rem;
+}
+
+#aboutStyleGuide .block1 {
+  display: flex;
+  align-items: center;
+  flex: 6;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 5rem;
+  padding-right: 2rem;
+}
+
+#aboutStyleGuide .block2 {
+  flex: 5;
+  margin-right: 5rem;
+  padding: 2rem 0 2rem 2rem;
 }
 
 #followSection .block1 {
@@ -209,7 +225,7 @@
 
 /*Interactive Elements Section*/
 #interactiveElementsSection {
-  margin-bottom: -4rem;
+  margin-bottom: 0;
   margin-top: 5rem;
 }
 
@@ -224,6 +240,13 @@
 
 #interactiveElementsSection .block3 {
   flex: 1;
+}
+
+#interactiveElementsSection .titleBackground {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
 }
 
 /*In-text Link Section*/
@@ -322,7 +345,7 @@
 /*text_elements Section*/
 #textElementsSection {
   margin-top: 5rem;
-  margin-bottom: -7rem;
+  margin-bottom: -5.5rem;
 }
 
 #textElementsSection .block1 {
@@ -400,7 +423,7 @@
 
 /*Product Listing Section*/
 #productList .block1 {
-  flex: 4;
+  flex: 2;
   margin-left: 5rem;
 }
 
@@ -411,7 +434,7 @@
   align-items: center;
   justify-content: center;
   padding-left: 2rem;
-  padding-right: 5rem;
+  padding-right: 2rem;
 }
 
 /*Payment section*/
@@ -431,19 +454,32 @@
 }
 
 /*Cart Section*/
-#cart .block3 {
+#cart .block1 {
   flex: 5;
-  margin-left: 5rem;
 }
 
-#cart .block4 {
+#cart .block2 {
   flex: 6;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+#cartItem {
+  display: flex;
+  flex-direction: row;
+}
+
+.cartPicture {
+  overflow: hidden;
+  flex: 1 50%;
+}
+
+.cartDetails {
+  flex: 1 44%;
+  margin: 0 3%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  padding-left: 2rem;
-  padding-right: 5rem;
 }
 
 /*Product Page*/
@@ -843,22 +879,52 @@
     margin-top: 3rem;
   }
 
+  /*About Section*/
+  #aboutStyleGuide .block1 {
+    margin-left: 2rem;
+    padding: 2rem 2rem 2rem 0;
+    flex: 1;
+  }
+
+  #aboutStyleGuide .block2 {
+    flex: 1;
+    margin-right: 2rem;
+  }
+
   /*Persona Section*/
+  #personaSection .block1 {
+    margin-left: 2rem;
+    flex: 1;
+  }
+
   #personaSection .block2 {
-    flex: 0;
-    display: none;
+    flex: 1;
+    margin-right: 2rem;
+    padding: 2rem 0 2rem 2rem;
   }
 
   /*Color Section*/
+  #colorSection .block1 {
+    flex: 1;
+    margin-left: 2rem;
+    padding: 2rem 2rem 2rem 0;
+  }
+
   #colorSection .block2 {
-    flex: 0;
-    display: none;
+    flex: 2;
+    margin-right: 2rem;
   }
 
   /*Typography Section*/
+  #typographySection .block1 {
+    margin-left: 2rem;
+    flex: 1;
+  }
+
   #typographySection .block2 {
-    flex: 0;
-    display: none;
+    margin-right: 2rem;
+    padding: 0;
+    flex: 1;
   }
 
   #spicyNoodleTitle {
@@ -872,11 +938,20 @@
 
   /*Potential Images Section*/
   .imageSection .block1 {
-    flex: 0;
-    display: none;
+    flex: 1;
+    margin-left: 2rem;
+  }
+
+  .imageSection .block2 {
+    flex: 1;
+    margin-right: 2rem;
   }
 
   /*Interactive Elements Section*/
+  #interactiveElementsSection {
+    margin-top: 2rem;
+  }
+
   #interactiveElementsSection .block1 {
     flex: 1;
   }
@@ -890,42 +965,83 @@
   }
 
   /*In-text Link Section*/
+  #link .block1 {
+    flex: 1;
+    margin-left: 2rem;
+  }
+
   #link .block2 {
-    flex: 0;
-    display: none;
+    flex: 1;
+    margin-right: 2rem;
+    padding: 0 0 0 2rem;
   }
 
   /*Navigation Button Section*/
+  #navButton .block1 {
+    flex: 1;
+    margin-left: 2rem;
+    padding: 0 2rem 0 0;
+  }
+
   #navButton .block2 {
-    flex: 0;
-    display: none;
+    flex: 1;
+    margin-right: 2rem;
   }
 
   /*Submit/Reset Button Section*/
+  #submitButton .block1 {
+    flex: 1;
+    margin-left: 2rem;
+  }
+
   #submitButton .block2 {
-    flex: 0;
-    display: none;
+    flex: 1;
+    padding: 0 0 0 2rem;
+    margin-right: 2rem;
   }
 
   /*Text input Section*/
+  #textInput .block1 {
+    flex: 1;
+    margin-left: 2rem;
+    padding: 0 2rem 0 0;
+  }
+
   #textInput .block2 {
-    flex: 0;
-    display: none;
+    flex: 1;
+    margin-right: 2rem;
   }
 
   /*Radio Button Section*/
+  #radioButton .block1 {
+    flex: 1;
+    margin-left: 2rem;
+  }
+
   #radioButton .block2 {
-    flex: 0;
-    display: none;
+    flex: 1;
+    margin-right: 2rem;
+    padding: 0 0 0 2rem;
   }
 
   /*Image as a Link Section*/
+  #imageLink .block1 {
+    flex: 1;
+    margin-left: 2rem;
+    padding: 0 2rem 0 0;
+  }
+
   #imageLink .block2 {
-    flex: 0;
-    display: none;
+    flex: 1;
+    margin-right: 2rem;
   }
 
   /*text_elements Section*/
+  #textElementsSection {
+    margin-top: 2rem;
+    margin-bottom: -4rem;
+  }
+
   #textElementsSection .block1 {
     flex: 2;
   }
@@ -939,27 +1055,59 @@
   }
 
   /*Heading Section*/
+  #heading .block1 {
+    flex: 1;
+    margin-left: 2rem;
+  }
+
   #heading .block2 {
-    flex: 0;
-    display: none;
+    flex: 1;
+    margin-right: 2rem;
+    padding: 0 0 0 2rem;
   }
 
   /*Paragraph Section*/
+  #para .block1 {
+    flex: 1;
+    margin-left: 2rem;
+    padding: 0 2rem 0 0;
+  }
+
   #para .block2 {
-    flex: 0;
-    display: none;
+    flex: 1;
+    margin-right: 2rem;
   }
 
   /*Numbered List Section*/
+  #numberedList .block1 {
+    flex: 1;
+    margin-left: 2rem
+  }
+
   #numberedList .block2 {
-    flex: 0;
-    display: none;
+    flex: 1;
+    margin-right: 2rem;
+  }
+
+  #combinedElementsSection {
+    margin-top: 2rem;
   }
 
   /*Menu bar section*/
+  #navBar .block1 {
+    flex: 1;
+    padding: 0 2rem 0 0;
+  }
+
+  #navBar .block1 .menuBar {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
   #navBar .block2 {
-    flex: 0;
-    display: none;
+    flex: 1 100%;
+    margin: 0 2rem;
   }
 
   /*Product Listing Section*/
@@ -994,21 +1142,39 @@
     justify-content: center;
   }
 
+  #productList .block1 {
+    flex: 2;
+    margin-left: 2rem;
+  }
+
   #productList .block2 {
-    flex: 0;
-    display: none;
+    flex: 1;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    padding: 0;
   }
 
   /*Payment section*/
+  #payment .block1 {
+    flex: 1;
+    margin-left: 2rem;
+  }
+
   #payment .block2 {
-    flex: 0;
-    display: none;
+    flex: 1;
+    margin-right: 2rem;
   }
 
   /*Cart Section*/
+  #cart .block1 {
+    flex: 1;
+    margin-left: 2rem;
+  }
+
   #cart .block2 {
-    flex: 0;
-    display: none;
+    flex: 1;
+    margin-right: 2rem;
+    padding: 0 0 0 2rem;
   }
 
   /*Product Page*/
@@ -1416,58 +1582,58 @@
     padding: 3rem;
   }
 
+  /*About Section Style guide*/
+  #aboutStyleGuide .block1 {
+    order: 1;
+    margin-left: 0;
+    padding: 2rem 2rem 0 2rem;
+  }
+
+  #aboutStyleGuide .block2 {
+    order: 0;
+    margin-right: 0;
+  }
+
   /*Persona Section*/
   #personaSection .block1 {
-    flex: 5;
     order: 0;
+    margin: 0;
   }
 
   #personaSection .block2 {
-    flex: 1;
     order: 1;
-  }
-
-  #personaSection .block3 {
-    display: flex;
-    align-items: center;
-    flex: 6;
-    padding: 3rem;
-    order: 2;
+    padding: 2rem 2rem 0 2rem;
+    margin: 0;
   }
 
   /*Color Section*/
   #colorSection .block1 {
-    flex: 4;
-    display: flex;
-    align-items: center;
-    padding: 3rem;
-    order: 2;
-  }
-
-  #colorSection .block2 {
-    flex: 1;
+    padding: 2rem 2rem 0 2rem;
+    margin: 0;
     order: 1;
   }
 
-  #colorSection .block3 {
-    flex: 7;
+  #colorSection .block2 {
     order: 0;
+    margin: 0;
   }
 
   /*Typography Section*/
   #typographySection .block1 {
-    flex: 5;
     order: 0;
+    margin: 0;
   }
 
   #typographySection .block2 {
-    flex: 1;
     order: 1;
+    padding: 2rem 2rem 0 2rem;
+    margin: 0;
   }
 
-  #typographySection .block3 {
-    flex: 6;
-    order: 2;
+  #typographySection .block2 p {
+    order: 1;
+    padding: 0;
+    margin: 0;
   }
 
   #more {
@@ -1480,22 +1646,28 @@
 
   /*Potential Images Section*/
   .imageSection .block1 {
-    flex: 1;
-    order: 0;
+    order: 1;
+    margin: 0;
+  }
+
+  #potential-img1 {
+    margin-right: 0;
+  }
+
+  #potential-img3 {
+    margin-right: 0;
   }
 
   .imageSection .block2 {
-    flex: 5;
-    order: 2;
-  }
-
-  .imageSection .block3 {
-    flex: 5;
-    order: 1;
-    margin-bottom: 1rem;
+    order: 0;
+    margin: 0 0 1rem 0;
   }
 
   /*Interactive Elements Section*/
+  #interactiveElementsSection {
+    margin-top: 0;
+  }
+
   #interactiveElementsSection .block1 {
     flex: 1;
   }
@@ -1510,128 +1682,80 @@
 
   /*In-text Link Section*/
   #link .block1 {
-    flex: 6;
     order: 0;
+    margin: 0;
   }
 
   #link .block2 {
-    flex: 1;
     order: 1;
-  }
-
-  #link .block3 {
-    flex: 5;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 3rem;
-    order: 2;
+    margin: 0;
+    padding: 2rem 2rem 0 2rem;
   }
 
   /*Navigation Button Section*/
   #navButton .block1 {
-    flex: 5;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 3rem;
+    padding: 2rem 2rem 0 2rem;
+    margin: 0;
     order: 2;
   }
 
   #navButton .block2 {
-    flex: 1;
     order: 1;
-  }
-
-  #navButton .block3 {
-    flex: 6;
-    order: 0;
   }
 
   /*Submit/Reset Button Section*/
   #submitButton .block1 {
-    flex: 6;
     order: 0;
+    margin: 0;
   }
 
   #submitButton .block2 {
-    flex: 1;
     order: 1;
-  }
-
-  #submitButton .block3 {
-    flex: 5;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 3rem;
-    order: 2;
+    margin: 0;
+    padding: 2rem;
   }
 
   /*Text input Section*/
   #textInput .block1 {
-    flex: 5;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 3rem;
+    padding: 2rem;
+    margin: 0;
     order: 2;
   }
 
   #textInput .block2 {
-    flex: 1;
+    margin: 0;
     order: 1;
-  }
-
-  #textInput .block3 {
-    flex: 6;
-    order: 0;
   }
 
   /*Radio Button Section*/
   #radioButton .block1 {
-    flex: 7;
+    margin: 0;
     order: 0;
   }
 
   #radioButton .block2 {
-    flex: 1;
+    margin: 0;
+    padding: 2rem;
     order: 1;
-  }
-
-  #radioButton .block3 {
-    flex: 4;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 3rem;
-    order: 2;
   }
 
   /*Image as a Link Section*/
   #imageLink .block1 {
-    flex: 5;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 3rem;
+    padding: 2rem;
     order: 2;
+    margin: 0;
   }
 
   #imageLink .block2 {
-    flex: 1;
     order: 1;
-  }
-
-  #imageLink .block3 {
-    flex: 6;
-    order: 0;
+    margin: 0;
   }
 
   /*text_elements Section*/
+  #textElementsSection {
+    margin: 0;
+  }
+
   #textElementsSection .block1 {
     flex: 2;
   }
@@ -1646,149 +1770,97 @@
 
   /*Heading Section*/
   #heading .block1 {
-    flex: 6;
+    margin: 0;
     order: 0;
   }
 
   #heading .block2 {
-    flex: 1;
+    margin: 0;
+    padding: 2rem;
     order: 1;
-  }
-
-  #heading .block3 {
-    flex: 5;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 3rem;
-    order: 2;
   }
 
   /*Paragraph Section*/
   #para .block1 {
-    flex: 5;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 3rem;
-    order: 2;
+    margin: 0;
+    order: 1;
+    padding: 2rem;
   }
 
   #para .block2 {
-    flex: 1;
-    order: 1;
-  }
-
-  #para .block3 {
-    flex: 6;
+    margin: 0;
     order: 0;
   }
 
   /*Numbered List Section*/
   #numberedList .block1 {
-    flex: 6;
+    margin: 0;
     order: 0;
   }
 
   #numberedList .block2 {
-    flex: 1;
+    margin: 0;
+    padding: 2rem;
     order: 1;
-  }
-
-  #numberedList .block3 {
-    flex: 5;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 3rem;
-    order: 2;
   }
 
   /*Menu bar section*/
   #navBar .block1 {
-    flex: 7;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 3rem;
+    padding: 2rem;
+    margin: 0;
     order: 2;
   }
 
   #navBar .block2 {
-    flex: 1;
+    margin: 0;
     order: 1;
-  }
-
-  #navBar .block3 {
-    flex: 4;
-    order: 0;
   }
 
   /*Product Listing Section*/
   #productList .block1 {
-    flex: 4;
+    margin: 0;
     order: 0;
   }
 
   #productList .block2 {
-    flex: 1;
+    margin: 0;
+    padding: 2rem;
     order: 1;
+    display: flex;
+    flex-direction: row;
   }
 
-  #productList .block3 {
-    flex: 7;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 3rem;
-    order: 2;
+  #productList .block2 .productBackground {
+    flex: 1 50%;
+  }
+
+  #productList .block2 .details {
+    flex: 1 44%;
+    margin: 0 3%;
   }
 
   /*Payment section*/
   #payment .block1 {
-    flex: 6;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 3rem;
+    margin: 0;
+    padding: 2rem;
     order: 2;
   }
 
   #payment .block2 {
-    flex: 1;
+    margin: 0;
     order: 1;
-  }
-
-  #payment .block3 {
-    flex: 5;
-    order: 0;
   }
 
   /*Cart Section*/
   #cart .block1 {
-    flex: 1;
     order: 0;
+    margin: 0;
   }
 
   #cart .block2 {
-    flex: 1;
     order: 1;
-  }
-
-  #cart .block3 {
-    flex: 5;
-  }
-
-  #cart .block4 {
-    flex: 6;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 3rem;
-    order: 2;
+    margin: 0;
+    padding: 2rem;
   }
 
   /*Product Page*/
