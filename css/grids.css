@@ -1901,6 +1901,10 @@
     box-shadow: none;
   }
 
+  #checkoutPage footer {
+    width: 100%;
+  }
+
   /*Trending Page*/
   #trending {
     margin-bottom: 0;
