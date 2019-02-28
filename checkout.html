@@ -32,7 +32,7 @@
     </div>
   </nav>
   <nav class="active menuBar" id="laptop">
-    <ul id="laptopMenu">
+    <ul class="laptopMenu">
       <li><a href="home.html" class="button-nav">Home</a></li>
       <li><a href="trending.html" class="button-nav">Trending</a></li>
       <li><a href="product_listing.html" class="button-nav">Products</a></li>
@@ -41,7 +41,14 @@
     </ul>
 
     <ul id="sideMenu">
-      <li><a href="checkout.html"> <img src="img/checkout_icon.png" alt="Cart Icon" class="cart_icon" /></a></li>
+      <li class="search_icon"><a href="#">
+          <img src="img/search_black.png" alt="Search Icon" class="search_black">
+          <img src="img/search_pink.png" alt=" Search Icon" class="search_pink">
+        </a></li>
+      <li class="checkout_icon"><a href="checkout.html">
+          <img src="img/checkout_icon_black.png" alt="Cart Icon Black" class="cart_icon_black">
+          <img src="img/checkout_icon_pink.png" alt="Cart Icon Pink" class="cart_icon_pink">
+        </a></li>
     </ul>
   </nav>
 
@@ -53,14 +60,15 @@
 
     <div class="row white">
       <div class="flex-container checkoutItem">
-        <div class="block1 middle-text">
+        <div class="block1">
           <a href="#" class="img-link">
-            <img class="checkout-img-noodle img-noodle checkout-img-background" src="img/migoRengPacket.png" alt="Mi Goreng Instant Noodle Cup">
+            <img class="checkout-img-noodle img-noodle checkout-img-background" src="img/laksaPacket.png" alt="Mi Goreng Instant Noodle Cup">
           </a>
         </div>
-        <div class="block2 middle-text">
-          <p class="checkout_cart_noodles">Mi Goreng</p>
-          <p class="checkout_cart_noodles">$0.99 USD each</p>
+        <div class="block2">
+          <p class="productTitle">Laksa</p>
+          <div class="product-line left-side"></div>
+          <p class="price">$3.99 USD each</p>
           <a class="remove_button" href="#">Remove</a>
         </div>
       </div>
@@ -68,14 +76,15 @@
 
     <div class="row white">
       <div class="flex-container checkoutItem">
-        <div class="block1 middle-text">
+        <div class="block1">
           <a href="#" class="img-link">
-            <img class="checkout-img-noodle img-noodle checkout-img-background" src="img/shinRamyunPackage.png" alt="Shin Ramyun Instant Noodle Cup">
+            <img class="checkout-img-noodle img-noodle checkout-img-background" src="img/maggiPacket.png" alt="Shin Ramyun Instant Noodle Cup">
           </a>
         </div>
-        <div class="block2 middle-text">
-          <p class="checkout_cart_noodles">Shin Ramyun</p>
-          <p class="checkout_cart_noodles">$2.99 USD each</p>
+        <div class="block2">
+          <p class="productTitle">Maggi</p>
+          <div class="product-line left-side"></div>
+          <p class="price">$0.99 USD each</p>
           <a class="remove_button" href="#">Remove</a>
         </div>
       </div>
