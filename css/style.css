@@ -1061,6 +1061,19 @@ a:hover .cart_icon_pink, a:focus .cart_icon_pink {
   margin-left: 5rem;
 }
 
+.social_media {
+  color: rgb(50, 50, 255);
+}
+
+.social_media:hover {
+  color: rgb(0, 0, 255);
+  font-weight: bold;
+}
+
+.social_media:focus {
+  color: rgb(100, 100, 100);
+}
+
 /*
   COMBINED ELEMENTS -------------------
 */
