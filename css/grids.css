@@ -1,8 +1,11 @@
+/*Settings for Laptop Screen Size*/
+/*This is a row that often contains a flex-container*/
 .row {
   /*Setting a 1rem margin between each container*/
   margin-top: 1rem;
 }
 
+/*Each Block is an a flex-item*/
 .block1 {
   width: 100%;
 }
@@ -23,6 +26,7 @@
   width: 100%;
 }
 
+/*Container that holds flex-items*/
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -30,89 +34,197 @@
   flex-direction: row;
 }
 
+/*Column flex-container*/
 .column {
   display: flex;
   width: 100%;
   flex-direction: column;
 }
 
+/*Row flex-container*/
 .horizontal {
   display: flex;
   width: 100%;
   flex-direction: row;
 }
 
+/*Set a margin/spacing for lines*/
 #line-margin-top {
   margin-top: 1rem;
 }
 
+/*phone menu bar that is not displayed on laptop size screens*/
 #phone {
   display: none;
 }
 
-/*Introduction Section*/
+/*Home Page Laptop Screen Size*/
 #cupAThings {
+  /*Header banner container*/
   z-index: 1;
   position: relative;
   margin-bottom: -4.5rem;
 }
 
+.intro .block1 {
+  /*header banner items*/
+  flex: 1;
+}
+
+.intro .block2 {
+  /*header banner items*/
+  flex: 1.2;
+  z-index: 2;
+}
+
+.intro .block3 {
+  /*header banner items*/
+  flex: 1;
+}
+
+.shopping .block1 {
+  /*Shopping Image Section*/
+  flex: 1;
+  margin: 0 3rem 0 5rem;
+}
+
+.shopping .block2 {
+  /*Make your own Instant Noodle Section*/
+  flex: 1;
+  margin: 0 5rem 0 0;
+}
+
+/*Popular Noodle Section*/
+#popular_noodles {
+  z-index: 1;
+  margin-top: 0;
+  margin-bottom: 5rem;
+}
+
+#bestSeller {
+  /*Header banner container*/
+  z-index: 1;
+  position: relative;
+  margin-bottom: -2rem;
+}
+
+.popular .block1 {
+  /*header banner items*/
+  flex: 1;
+}
+
+.popular .block2 {
+  /*header banner items*/
+  flex: 3;
+  z-index: 2;
+}
+
+.popular .block3 {
+  /*header banner items*/
+  flex: 1;
+}
+
+.popular_noodles .block1 {
+  padding: 1rem 0 0 1rem;
+}
+
+.popular_noodles .block2 {
+  padding: 1rem 0 0 1rem;
+}
+
+.popular_noodles .block3 {
+  padding: 1rem 0 0 1rem;
+}
+
+.popular_noodles .block4 {
+  padding: 1rem 0 0 1rem;
+}
+
+.popular_noodles .block5 {
+  padding: 1rem 1rem 0 1rem;
+  text-align: left;
+}
+
+/*End of Home Page*/
+/*Trending Page Laptop Screen Size*/
+/*Trending Page Banner*/
 #trending {
   z-index: 1;
   position: relative;
   margin-bottom: -5rem;
 }
 
-.shopping .block1 {
+/*Trending Page Banner*/
+#trendingIntro .block1 {
   flex: 1;
-  margin: 0 3rem 0 5rem;
 }
 
-.shopping .block2 {
+#trendingIntro .block2 {
+  flex: 5;
+  z-index: 2;
+}
+
+#trendingIntro .block3 {
   flex: 1;
-  margin: 0 5rem 0 0;
 }
 
-#bestSeller {
-  z-index: 1;
-  position: relative;
-  margin-bottom: -2rem;
+/*Title of Trend*/
+#spicyNoodleTitle {
+  margin-left: 5rem;
 }
 
+.trySection .block1 {
+  flex: 6;
+  margin-left: 5rem;
+  overflow: hidden;
+}
+
+.trySection .block2 {
+  justify-content: center;
+  flex-direction: column;
+  flex: 5;
+  overflow: hidden;
+  display: flex;
+  padding-left: 2rem;
+  padding-right: 5rem;
+  margin-right: 2rem;
+}
+
+.trySection .block3 {
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  flex: 5;
+  display: flex;
+  padding-left: 5rem;
+  padding-right: 2rem;
+  margin-left: 2rem;
+}
+
+.trySection .block4 {
+  flex: 6;
+  margin-right: 5rem;
+  overflow: hidden;
+}
+
+.trySection .block5 {
+  display: none;
+  overflow: hidden;
+}
+
+/*End of Trending Page*/
+/*Product Page Laptop Screen Size*/
 #products {
+  /*product page banner*/
   z-index: 1;
   position: relative;
   margin-bottom: -7rem;
 }
 
-.intro .block1 {
-  flex: 1;
-}
-
-.intro .block2 {
-  flex: 1.2;
-  z-index: 2;
-}
-
-.intro .block3 {
-  flex: 1;
-}
-
-.popular .block1 {
-  flex: 1;
-}
-
-.popular .block2 {
-  flex: 3;
-  z-index: 2;
-}
-
-.popular .block3 {
-  flex: 1;
-}
-
-/*About Section*/
+/*End of Product Page*/
+/*About Page Laptop Screen Size*/
 #aboutSection .block1 {
+  /*About us content*/
   display: flex;
   align-items: center;
   flex: 6;
@@ -123,11 +235,49 @@
 }
 
 #aboutSection .block2 {
+  /*Logo*/
   flex: 5;
   margin-right: 5rem;
   padding: 1rem 0 1rem 1rem;
 }
 
+#followSection .block1 {
+  /*Where to follow our company*/
+  display: flex;
+  align-items: center;
+  flex: 6;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 5rem;
+  padding-right: 2rem;
+}
+
+#followSection .block2 {
+  /*Image of company*/
+  flex: 5;
+  margin-right: 5rem;
+}
+
+#factorySection .block1 {
+  /*Image of office*/
+  flex: 7;
+  margin-left: 5rem;
+}
+
+#factorySection .block2 {
+  /*About Company*/
+  flex: 5;
+  display: flex;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 5rem;
+}
+
+/*End of About Page*/
+/*Styleguide Page Laptop Screen Size*/
+/*About Section*/
 #aboutStyleGuide .block1 {
   display: flex;
   align-items: center;
@@ -142,36 +292,6 @@
   flex: 5;
   margin-right: 5rem;
   padding: 2rem 0 2rem 2rem;
-}
-
-#followSection .block1 {
-  display: flex;
-  align-items: center;
-  flex: 6;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 5rem;
-  padding-right: 2rem;
-}
-
-#followSection .block2 {
-  flex: 5;
-  margin-right: 5rem;
-}
-
-#factorySection .block1 {
-  flex: 7;
-  margin-left: 5rem;
-}
-
-#factorySection .block2 {
-  flex: 5;
-  display: flex;
-  align-items: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  padding-left: 2rem;
-  padding-right: 5rem;
 }
 
 /*Persona Section*/
@@ -470,11 +590,13 @@
 }
 
 .cartPicture {
+  /*Cart product Image*/
   overflow: hidden;
   flex: 1 50%;
 }
 
 .cartDetails {
+  /*Cart product details*/
   flex: 1 44%;
   margin: 0 3%;
   display: flex;
@@ -482,11 +604,14 @@
   justify-content: center;
 }
 
+/*End of Styleguide Page*/
 /*Product Page*/
 .product_search {
+  /*Product page search bar*/
   position: relative;
 }
 
+/*Product Page Header Banner*/
 #productIntro .block1 {
   flex: 1;
 }
@@ -500,6 +625,7 @@
   flex: 1;
 }
 
+/*Product Listing*/
 .product_listing {
   flex-wrap: wrap;
 }
@@ -511,7 +637,9 @@
   flex: 1 21%;
 }
 
+/*End of Product Listing Page*/
 /*Checkout Cart Page*/
+/*Checkout Cart Banner Header*/
 #checkoutIntro .block1 {
   flex: 2;
 }
@@ -524,23 +652,28 @@
   flex: 2;
 }
 
+/*Checkout Sidebar*/
 .checkoutItem .block1 {
+  /*Checkout item image*/
   overflow: hidden;
   flex: 1 45%;
   margin: 0 0 0 5%;
 }
 
 .checkoutItem .block2 {
+  /*Checkout item details*/
   flex: 1 42%;
   padding: 0 3% 0 3%;
 }
 
 #checkoutSummary .block1 {
+  /*summary of checkout*/
   flex: 1;
   padding: 1rem 2rem;
 }
 
-/*Payment Page*/
+/*Payment Section*/
+/*Payment Header Banner*/
 #paymentIntro {
   position: relative;
 }
@@ -550,77 +683,14 @@
 }
 
 #paymentInfo .block1 {
-  flex: 1;
-}
-
-#paymentInfo .block2 {
-  flex: 1;
-}
-
-#paymentInfo .block3 {
+  /*Payment form*/
   flex: 10;
   padding: 2rem 5rem 2rem 2rem;
   margin-left: 3rem;
 }
 
-/*Trending Page*/
-#trendingIntro .block1 {
-  flex: 1;
-}
-
-#trendingIntro .block2 {
-  flex: 5;
-  z-index: 2;
-}
-
-#trendingIntro .block3 {
-  flex: 1;
-}
-
-#spicyNoodleTitle {
-  margin-left: 5rem;
-}
-
-.trySection .block1 {
-  flex: 6;
-  margin-left: 5rem;
-  overflow: hidden;
-}
-
-.trySection .block2 {
-  justify-content: center;
-  flex-direction: column;
-  flex: 5;
-  overflow: hidden;
-  display: flex;
-  padding-left: 2rem;
-  padding-right: 5rem;
-  margin-right: 2rem;
-}
-
-.trySection .block3 {
-  justify-content: center;
-  flex-direction: column;
-  overflow: hidden;
-  flex: 5;
-  display: flex;
-  padding-left: 5rem;
-  padding-right: 2rem;
-  margin-left: 2rem;
-}
-
-.trySection .block4 {
-  flex: 6;
-  margin-right: 5rem;
-  overflow: hidden;
-}
-
-.trySection .block5 {
-  display: none;
-  overflow: hidden;
-}
-
-/*Product Detail Page*/
+/*End of Payment Page*/
+/*Product Detail Page Laptop Screen Size*/
 #detailSection .block1 {
   padding-top: 4rem;
   margin-left: 5rem;
@@ -653,34 +723,7 @@
   margin-left: 1rem;
 }
 
-/*Popular Noodles Section*/
-#popular_noodles {
-  z-index: 1;
-  margin-top: 0;
-  margin-bottom: 5rem;
-}
-
-.popular_noodles .block1 {
-  padding: 1rem 0 0 1rem;
-}
-
-.popular_noodles .block2 {
-  padding: 1rem 0 0 1rem;
-}
-
-.popular_noodles .block3 {
-  padding: 1rem 0 0 1rem;
-}
-
-.popular_noodles .block4 {
-  padding: 1rem 0 0 1rem;
-}
-
-.popular_noodles .block5 {
-  padding: 1rem 1rem 0 1rem;
-  text-align: left;
-}
-
+/*Recommended Noodles Carousel Slider*/
 #recommended_noodles {
   margin-top: 4rem;
   margin-bottom: 5rem;
@@ -691,12 +734,15 @@
   margin: 0.1rem 0.25rem;
 }
 
+/*End of Product Detail Page*/
 /*for tablet*/
 @media only screen and (max-width:60rem) {
   #laptop {
+    /*Laptop Size Screen Menu is not displayed for Tablet*/
     display: none;
   }
 
+  /*Hamburger Menu*/
   #menuToggle {
     display: block;
     position: relative;
@@ -795,6 +841,7 @@
     opacity: 1;
   }
 
+  /*Set Tablet Menu to have hamburger Menu*/
   #phone {
     width: 100%;
     position: fixed;
@@ -803,6 +850,7 @@
     z-index: 1000;
   }
 
+  /*Hover styling*/
   #menu li a:hover {
     padding: 1rem 0;
     border: 0.1rem solid #f16668;
@@ -810,6 +858,7 @@
     color: #f16668;
   }
 
+  /*general styling for basic elements*/
   a {
     color: #ffffff;
     text-decoration: none;
@@ -823,6 +872,8 @@
     font-size: 4.5rem;
   }
 
+  /*About Page Tablet Size*/
+  /*Create a Read More/Read Less Button For About Page Content*/
   #more {
     display: none;
   }
@@ -839,12 +890,15 @@
     display: block;
   }
 
+  /*Trending Page for Tablet Size*/
   .quote {
     font-size: 1.25rem;
     line-height: 1.5rem;
     letter-spacing: 0.1rem;
   }
 
+  /*End of Trending Page*/
+  /*Payment Page for Tablet Size*/
   /*input text-box styling*/
   .text-box[type=text] {
     width: 90%;
@@ -855,6 +909,13 @@
     width: 90%;
   }
 
+  /*Set Sidebar Title Styling*/
+  .payment-title {
+    font-size: 2rem;
+  }
+
+  /*End of Payment Page*/
+  /*Contact Us Page Tablet Size*/
   .contact-text-box[type=text] {
     width: 90%;
   }
@@ -864,14 +925,14 @@
     width: 90%;
   }
 
+  /*input textarea styling*/
   .contact-textarea {
     width: 90%;
   }
 
-  .payment-title {
-    font-size: 2rem;
-  }
-
+  /*End of Contact Us Page*/
+  /*Home Page Tablet Size Screen*/
+  /*Home Page Title Banner*/
   .intro .block1 {
     flex: 1;
   }
@@ -884,10 +945,14 @@
     flex: 1;
   }
 
+  /*End of Home Page*/
+  /*Product Detail Page Tablet Size*/
   #detailSection .block3 {
     margin-top: 3rem;
   }
 
+  /*End of Product Detail Page*/
+  /*Styleguide page Tablet Size*/
   /*About Section*/
   #aboutStyleGuide .block1 {
     margin-left: 2rem;
@@ -934,15 +999,6 @@
     margin-right: 2rem;
     padding: 0;
     flex: 1;
-  }
-
-  #spicyNoodleTitle {
-    margin-top: 3rem;
-    margin-left: 5rem;
-  }
-
-  #products {
-    margin-bottom: -5rem;
   }
 
   /*Potential Images Section*/
@@ -1120,37 +1176,6 @@
   }
 
   /*Product Listing Section*/
-  .product_search input.text-box {
-    width: 100%;
-  }
-
-  .product_search .block1 {
-    width: 45%;
-  }
-
-  .product_search a {
-    width: 1.5rem;
-    height: 1.5rem;
-  }
-
-  .product_search .block2 {
-    width: 5%;
-  }
-
-  .product_search .block3 {
-    float: right;
-    width: 25%;
-    display: flex;
-    justify-content: center;
-  }
-
-  .product_search .block4 {
-    float: right;
-    width: 25%;
-    display: flex;
-    justify-content: center;
-  }
-
   #productList .block1 {
     flex: 2;
     margin-left: 2rem;
@@ -1186,8 +1211,26 @@
     padding: 0 0 0 2rem;
   }
 
-  /*Product Page*/
+  /*End of Styleguide Page*/
+  /*Trending Page Tablet Size*/
+  #spicyNoodleTitle {
+    margin-top: 3rem;
+    margin-left: 5rem;
+  }
+
+  .overlay a {
+    font-size: 1.5rem;
+  }
+
+  /*End of Trending Page*/
+  /*Product Page Tablet Size*/
+  #products {
+    /*Product Page Banner*/
+    margin-bottom: -5rem;
+  }
+
   #productIntro .block1 {
+    /*Product Page Header Banner*/
     flex: 1;
   }
 
@@ -1200,14 +1243,53 @@
   }
 
   .product_listing .block1 {
+    /*Product Container*/
     margin-top: 1rem;
     padding: 2%;
     flex: 1 29.33%;
     margin-left: 1rem;
   }
 
+  .product_search input.text-box {
+    /*Product Page search Bar Section*/
+    width: 100%;
+  }
+
+  .product_search .block1 {
+    /*Search Bar Text input*/
+    width: 45%;
+  }
+
+  .product_search a {
+    /*Search Icon*/
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .product_search .block2 {
+    /*Spacing*/
+    width: 5%;
+  }
+
+  .product_search .block3 {
+    /*Filter Drop down menu*/
+    float: right;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .product_search .block4 {
+    /*Sort By Drop Down Menu*/
+    float: right;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+  }
+
   /*Checkout Cart Page*/
   #checkoutIntro .block1 {
+    /*Checkout Page Banner*/
     flex: 2;
   }
 
@@ -1220,56 +1302,89 @@
   }
 
   .checkoutItem .block1 {
+    /*checkout item image*/
     flex: 1 40%;
     margin: 0 5%;
   }
 
   .checkoutItem .block2 {
+    /*checkout item detail*/
     flex: 1 40%;
     padding: 0 5%;
   }
 
   #checkoutSummary .block1 {
+    /*Checkout overview*/
     flex: 1;
-  }
-
-  .overlay a {
-    font-size: 1.5rem;
   }
 }
 
 /*for phone*/
 @media only screen and (max-width:45rem) {
+
+  /*Home Page Phone Size*/
+  /*Intro Header Banner*/
   #cupAThings {
     margin-bottom: 0;
   }
 
   .shopping .block1 {
+    /*Shopping */
     flex: 1;
     margin: 0;
     order: 0;
   }
 
   .shopping .block2 {
+    /*Make your own cup noodle*/
     flex: 1;
     margin: 1rem 0 0 0;
     order: 1;
   }
 
+  .intro .block1 {
+    flex: 1;
+  }
+
+  .intro .block2 {
+    flex: 2;
+  }
+
+  .intro .block3 {
+    flex: 1;
+  }
+
+  /*Popular Noodles Header Banner*/
   #bestSeller {
     margin-bottom: 0;
     margin-top: 1rem;
   }
 
-  #products {
-    margin-bottom: 0;
+  .popular .titleBackground {
+    height: 100%;
   }
 
+  #popular_noodles {
+    margin-top: 4rem;
+  }
+
+  #recommended_noodles {
+    margin-top: 0;
+    margin-bottom: 5rem;
+  }
+
+  #recommended_noodles h5 {
+    margin-left: 2rem;
+  }
+
+  /*End of Home Page*/
   /*I referenced the hamburger menu from the internet it is in my citation (NOT MY CODE)*/
+  /*Laptop Menu display none*/
   #laptop {
     display: none;
   }
 
+  /*Hamburger Menu*/
   #menuToggle {
     display: block;
     position: relative;
@@ -1367,16 +1482,13 @@
     opacity: 1;
   }
 
+  /*Display set on for phone menu */
   #phone {
     width: 100%;
     position: fixed;
     display: block;
     padding: 0.8rem 0;
     z-index: 100000;
-  }
-
-  label {
-    padding: 0;
   }
 
   #menu li a:hover {
@@ -1386,6 +1498,7 @@
     color: #f16668;
   }
 
+  /*general styling*/
   a {
     color: #ffffff;
     text-decoration: none;
@@ -1393,6 +1506,10 @@
 
   body {
     font-size: 12px;
+  }
+
+  label {
+    padding: 0;
   }
 
   h2 {
@@ -1411,6 +1528,7 @@
     font-size: 1.1rem;
   }
 
+  /*Header Background Color*/
   .titleBackground {
     position: absolute;
     z-index: 1;
@@ -1418,20 +1536,9 @@
     height: 100%;
   }
 
-  .popular .titleBackground {
-    height: 100%;
-  }
-
+  /*Trending Page Phone Size*/
   #trendingIntro .titleBackground {
     height: 100%;
-  }
-
-  #productIntro .titleBackground {
-    height: 100%;
-  }
-
-  #popular_noodles {
-    margin-top: 4rem;
   }
 
   .quote {
@@ -1440,6 +1547,7 @@
     letter-spacing: 0.1rem;
   }
 
+  /*Checkout Page Phone Size*/
   .payment-title {
     font-size: 4rem;
   }
@@ -1450,34 +1558,30 @@
     margin-left: 0;
   }
 
-  #detailSection .block1 {
-    padding-top: 4rem;
-    margin-left: 0;
+  .flex-container.checkoutItem {
+    display: flex;
+    flex-direction: row;
   }
 
-  #detailSection .block3 {
-    margin-top: 1rem;
-    padding: 0 2rem;
-  }
-
-  #detailSection .block3 .right-spacing {
-    margin: 1rem 0 0 0;
+  .checkoutItem .block1 {
+    flex: 1 40%;
     padding: 0;
+    margin: 0 5%;
   }
 
-  #detailSection .block4 {
-    padding: 1rem 0 0 0;
+  .checkoutItem .block2 {
+    flex: 1 45%;
+    padding: 0 5% 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
-  #detailSection .block5 {
-    padding: 1.5rem 0;
-    margin: 0;
+  .item {
+    margin: 0rem 0 1rem 0rem;
   }
 
-  .backButton {
-    top: 4rem;
-  }
-
+  /*End of Product Detail*/
   .checkout-img-noodle {
     margin-left: 0;
   }
@@ -1505,29 +1609,38 @@
     width: 100%;
   }
 
-  .flex-container.checkoutItem {
-    display: flex;
-    flex-direction: row;
+  /*End of Checkout Page*/
+  /*Product Detail Page*/
+  #detailSection .block1 {
+    padding-top: 4rem;
+    margin-left: 0;
   }
 
-  .checkoutItem .block1 {
-    flex: 1 40%;
+  #detailSection .block3 {
+    margin-top: 1rem;
+    padding: 0 2rem;
+  }
+
+  #detailSection .block3 .right-spacing {
+    margin: 1rem 0 0 0;
     padding: 0;
-    margin: 0 5%;
   }
 
-  .checkoutItem .block2 {
-    flex: 1 45%;
-    padding: 0 5% 0 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  #detailSection .block4 {
+    padding: 1rem 0 0 0;
   }
 
-  .item {
-    margin: 0rem 0 1rem 0rem;
+  #detailSection .block5 {
+    padding: 1.5rem 0;
+    margin: 0;
   }
 
+  .backButton {
+    /*Back button*/
+    top: 4rem;
+  }
+
+  /*End of Trending Page*/
   .right-margin {
     margin-right: 0;
   }
@@ -1538,19 +1651,7 @@
     width: 100%;
   }
 
-  .intro .block1 {
-    flex: 1;
-  }
-
-  .intro .block2 {
-    flex: 2;
-  }
-
-  .intro .block3 {
-    flex: 1;
-  }
-
-  /*About Section*/
+  /*About Page PHone Size*/
   #aboutSection .block1 {
     display: flex;
     align-items: center;
@@ -1589,6 +1690,24 @@
     padding: 3rem;
   }
 
+  #more {
+    display: none;
+  }
+
+  #myBtn {
+    display: block;
+  }
+
+  #more2 {
+    display: none;
+  }
+
+  #myBtn2 {
+    display: block;
+  }
+
+  /*End of About Page*/
+  /*Styleguide page phone size*/
   /*About Section Style guide*/
   #aboutStyleGuide .block1 {
     order: 1;
@@ -1641,22 +1760,6 @@
     order: 1;
     padding: 0;
     margin: 0;
-  }
-
-  #more {
-    display: none;
-  }
-
-  #myBtn {
-    display: block;
-  }
-
-  #more2 {
-    display: none;
-  }
-
-  #myBtn2 {
-    display: block;
   }
 
   /*Potential Images Section*/
@@ -1878,7 +1981,43 @@
     padding: 2rem;
   }
 
-  /*Product Page*/
+  /*End of Styleguide page*/
+  /*Product Page Phone Size*/
+  .search {
+    margin: 1rem 5% 0 5%;
+  }
+
+  .product_search .block1 {
+    float: left;
+    width: 100%;
+  }
+
+  .product_search .block2 {
+    width: 0%;
+  }
+
+  .product_search .block3 {
+    width: auto;
+    margin: 1rem 2rem 1rem 0;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .product_search .block4 {
+    width: auto;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  #products {
+    margin-bottom: 0;
+  }
+
+  #productIntro .titleBackground {
+    height: 100%;
+  }
+
   .product_search.flex-container {
     flex-direction: row;
     display: flex;
@@ -1915,6 +2054,8 @@
     flex: 1 44%;
   }
 
+  /*End of Product Page*/
+  /*Checkout Page Phone Size*/
   #checkoutLeft {
     width: 100%;
   }
@@ -1929,7 +2070,8 @@
     width: 100%;
   }
 
-  /*Trending Page*/
+  /*End of Checkout PAge*/
+  /*Trending Page Phone Size*/
   #trending {
     margin-bottom: 0;
   }
@@ -2059,42 +2201,8 @@
     transform: scale(1);
   }
 
-  .search {
-    margin: 1rem 5% 0 5%;
-  }
-
-  .product_search .block1 {
-    float: left;
-    width: 100%;
-  }
-
-  .product_search .block2 {
-    width: 0%;
-  }
-
-  .product_search .block3 {
-    width: auto;
-    margin: 1rem 2rem 1rem 0;
-    display: flex;
-    justify-content: flex-start;
-  }
-
-  .product_search .block4 {
-    width: auto;
-    margin: 1rem 0;
-    display: flex;
-    justify-content: flex-start;
-  }
-
-  #recommended_noodles {
-    margin-top: 0;
-    margin-bottom: 5rem;
-  }
-
-  #recommended_noodles h5 {
-    margin-left: 2rem;
-  }
-
+  /*End of Trending PAge*/
+  /*Citations Page*/
   #citations {
     margin: 2rem;
   }
