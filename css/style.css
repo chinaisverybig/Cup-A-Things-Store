@@ -176,7 +176,7 @@ img {
 footer {
   background-color: #f8f7f0;
   margin: 1rem 0 0 0;
-  padding: 3rem 5rem;
+  padding: 9rem 0 0.5rem 1rem;
 }
 
 /*
@@ -1046,6 +1046,7 @@ a:hover .cart_icon_pink, a:focus .cart_icon_pink {
 
 #myBtn {
   display: none;
+  margin-top: 1rem;
 }
 
 #detailSection h3 {
@@ -1072,6 +1073,16 @@ a:hover .cart_icon_pink, a:focus .cart_icon_pink {
 
 .social_media:focus {
   color: rgb(100, 100, 100);
+}
+
+#searchbar {
+  display: none;
+  width: 130px;
+  padding: 5px;
+  margin-right: 1rem;
+  border-radius: 15px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
 }
 
 /*
