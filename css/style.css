@@ -177,7 +177,7 @@ img {
 footer {
   background-color: #f8f7f0;
   margin: 1rem 0 0 0;
-  padding: 9rem 0 0.5rem 1rem;
+  padding: 3rem 0 0.5rem 1rem;
 }
 
 /*
@@ -1084,6 +1084,25 @@ a:hover .cart_icon_pink, a:focus .cart_icon_pink {
   border-radius: 15px;
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
+}
+
+#footer-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#footer-links ul li {
+  height: auto;
+  list-style-type: none;
+  text-align: center;
+}
+
+#copyright {
+  margin-top: 2rem;
+}
+
+#checkoutPage footer {
+  width: 75%;
 }
 
 /*
