@@ -44,9 +44,10 @@
     </ul>
 
     <ul id="sideMenu">
+      <li><input id="searchbar" type="text" placeholder="Search..." /></li>
       <li class="search_icon"><a href="#">
-          <img src="img/search_black.png" alt="Search Icon" class="search_black">
-          <img src="img/search_pink.png" alt=" Search Icon" class="search_pink">
+          <img src="img/search_black.png" alt="Search Icon" class="search_black" onClick="toggleSearchbar()">
+          <img src="img/search_pink.png" alt=" Search Icon" class="search_pink" onClick="toggleSearchbar()">
         </a></li>
       <li class="checkout_icon"><a href="checkout.html">
           <img src="img/checkout_icon_black.png" alt="Cart Icon Black" class="cart_icon_black">
@@ -136,6 +137,7 @@
   </footer>
   <script src="js/menu.js"></script>
   <script src="js/seeMore.js"></script>
+  <script src="js/searchbar.js"></script>
 </body>
 
 </html>
