@@ -1091,6 +1091,12 @@ a:hover .cart_icon_pink, a:focus .cart_icon_pink {
   justify-content: space-evenly;
 }
 
+#footer-links ul {
+  margin: 0;
+  padding: 0;
+  width: 33%;
+}
+
 #footer-links ul li {
   height: auto;
   list-style-type: none;
@@ -1103,6 +1109,16 @@ a:hover .cart_icon_pink, a:focus .cart_icon_pink {
 
 #checkoutPage footer {
   width: 75%;
+}
+
+.header_title {
+  font-weight: bold;
+  font-size: 19px;
+  padding-bottom: 1rem;
+}
+
+.header_info {
+  padding-bottom: 0.25rem;
 }
 
 /*
